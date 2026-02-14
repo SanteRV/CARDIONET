@@ -1,0 +1,4916 @@
+[
+  {
+    "Campo1": "Dr. Juan Manuel Menéndez García",
+    "Campo2": "Cardiólogo",
+    "Texto": "302 opinión",
+    "Texto1": "Jirón Mariscal Miller 1182, Jesús María",
+    "Campo3": "S/ 200"
+  },
+  {
+    "Campo1": "Dr. Marco Antonio La Torre Ortiz",
+    "Campo2": "Cardiólogo",
+    "Texto": "57 opinión",
+    "Texto1": "Jirón Mariscal Miller 1182, Jesús María",
+    "Campo3": "S/ 200"
+  },
+  {
+    "Campo1": "Dr. Christian Jesus Guerrero Sánchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Av. Carlos Izaguirre 930, Los Olivos",
+    "Campo3": "S/ 85"
+  },
+  {
+    "Campo1": "Dr. Edgar Quispe Silvestre",
+    "Campo2": "Cardiólogo",
+    "Texto": "5 opinión",
+    "Texto1": "Av Pablo Carriquiry 115, San Isidro (al costado de Clínica Ricardo Palma), Lima",
+    "Campo3": "S/ 120"
+  },
+  {
+    "Campo1": "Dr. Jesus A. Meza López",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. César Nicolás Conde Vela",
+    "Campo2": "Cardiólogo",
+    "Texto": "13 opinión",
+    "Texto1": "Avenida Javier Prado Este, 499, San Isidro",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Rodrigo De Pomar Saettone",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Avenida Carlos Izaguirre 1331, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jefree Fernández Chávez",
+    "Campo2": "Cardiólogo",
+    "Texto": "103 opinión",
+    "Texto1": "Jr. Tomas Ramsey 294, Lima",
+    "Campo3": "S/ 150"
+  },
+  {
+    "Campo1": "Dra. Hameda Rahimi",
+    "Campo2": "Cardiólogo",
+    "Texto": "36 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Alberto Mejia Vargas Machuca",
+    "Campo2": "Cardiólogo",
+    "Texto": "99 opinión",
+    "Texto1": "Av. Roosevelt 6382, Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Bristan Daniel Maraza Barrio de Mendoza",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Lescano Alva",
+    "Campo2": "Cardiólogo",
+    "Texto": "15 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pablo Enrique Vivas Abril",
+    "Campo2": "Cardiólogo",
+    "Texto": "4 opinión",
+    "Texto1": "Los melones H-5. La Molina, Lima",
+    "Campo3": "S/ 200"
+  },
+  {
+    "Campo1": "Dr. Eduardo Canales Mayorga",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Av. Javier Prado Este 2638, San Borja",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Santiago Vega Vasquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "El Polo 789, Surco",
+    "Campo3": "S/ 150"
+  },
+  {
+    "Campo1": "Dr. Alvaro Villar Quiroz",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "9 opinión",
+    "Texto1": "Avenida Colombia 199, Pueblo Libre",
+    "Campo3": "S/ 120"
+  },
+  {
+    "Campo1": "Dr. Carlos Alvarez Murillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "4 opinión",
+    "Texto1": "Av. Garcilaso de la Vega 1420, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Juan Antonio Urquiaga Calderón",
+    "Campo2": "Cardiólogo",
+    "Texto": "42 opinión",
+    "Texto1": "Av. Petit Thouars 4453, Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Luis Salinas Arce",
+    "Campo2": "Cardiólogo",
+    "Texto": "8 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Victor Augusto Herrera Tanaka",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Alberto Calderon Vera",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Marcos Lorenzo Pariona Javier",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Alberto Morales Quispe",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Fernando Villanueva Perez",
+    "Campo2": "Cardiólogo, Geriatra",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Oscar Guillermo Quiroz Jara",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Sara Munive Rojas",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Geem María Huaringa Bejarano",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Alfonso Francisco Balaguer Quiroga",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Johnny Siccha Martinez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Diego Enrique Reyes Carranza",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. German Valenzuela Rodriguez",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Javier Ricardo Figueroa Tataje",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Nelson Garcia Chambilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "av. la molina este 3814, La Molina",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ricardo Alvarado Salinas",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Marco Antonio Heredia Ñahui",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Ramón Vargas Machuca 754, San Juan de Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Maximo Jorge Rossell Salinas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Leopoldo Emilio Munive Garcia",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Luis Tapia Leonardo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Ignacio Merino 1884, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Emmanuel Amado Hurtado Noblecilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Tomas Carlos Gargurevich Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Antonio Peralta Ponce",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luisa Soraya Talledo Paredes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Juan Carlos More",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Manuel Martín Velasco Miranda",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Avenida Brasil 680, Breña , Cercado de Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Héctor Revilla Alcocer",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Alberto Holguin Palacios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Aurelio Mendoza Paulini",
+    "Campo2": "Cardiólogo, Especialista en medicina nuclear",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Hessell Condezo Santana",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Oscar Luis Alvarez Franco",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Asdrúbal Vela Sandoval",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. César Landaeta Torrealba",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Apac Valdiviezo",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "HolaDoc",
+    "Campo2": "Cardiólogo, Especialista en administración de salud, Cirujano vascular",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Policlínico Biolaq",
+    "Campo2": "Cardiólogo, Alergista, Patólogo",
+    "Texto": "",
+    "Texto1": "Av. Javier Prado Este 2492, San Borja",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ramón Caro Ávalos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Manuel Jaime Contreras Arcelles",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "DOMINGO ELÍAS 256 MIRAFLORES, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Vera Jimena Silva Salazar",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. César Antonio Ortiz Zegarra",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Luis Casana Bejarano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Richard Soto Becerra",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Paul Martín Preza Carrillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. César Omar Peralta Trujillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. El Polo 570,",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. José David Vasquez Perez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Rocio Palomino Vilchez",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "Av La República , Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica AvanSalud",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "50 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Gilberto Fernando Torres Vega",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Ricardo Santos Salazar",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "SERVICIOS MEDICOS MOVILES SRL",
+    "Campo2": "Cardiólogo, Cirujano vascular, Técnico en laboratorio clínico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Freddy Ponciano Tarazona",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Médico Oscar Romero",
+    "Campo2": "Cardiólogo, Endocrinólogo, Infectólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Walter Enrique Mogrovejo Ramos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Alberto Orellana Vidaurre",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. José Antonio Agüero Ramírez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Enrique Apac Valdivieso",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "Av. Los Ruiseñores 476 2do Piso, Santa Anita",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Vascusalud",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Eduardo Romero Aranibar",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jaime Trinidad Madueño Madueño",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. David C. Montoya Goicochea",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ricardo Coloma Araniya",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Servicios Medicos Virgen de la Luz Sac",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Germán Antonio Rodríguez Valencia",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Digesalud - Salud Ocupacional",
+    "Campo2": "Cardiólogo, Técnico en laboratorio clínico, Médico del trabajo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Médico Ob&Gyn",
+    "Campo2": "Cardiólogo, Patólogo, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Hael Fernandez Prado",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Patrycja Skibska",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Pod Lasem, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Wilder A. Sandoval Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "Av. César Vallejo 1390, El Agustino",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Alberto Choton Vergara",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Julio Jaime Rodriguez Castro",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Cerebro Cardiovascular y Maxilofacial del Peru",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano maxilofacial",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Stella Maris",
+    "Campo2": "Cardiólogo, Cirujano general, Cirujano maxilofacial",
+    "Texto": "29 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Delgado Agurto",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "El Polo 789, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Mario Delio Garcia Samaniego",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Katherine Alcalá",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Macelo De la Puenta",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gladys Martha Espinoza Rivas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Milton Clyde Delgado Acevedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Azañedo Velasquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Walter Cabrera Honorio",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Omar Villanueva Muñoz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Cesar Amadeo Montes Padilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Perez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Romulo Carlos Torres Araoz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Diego Yanqui Melendez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Gladys Espinoza Rivas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Vicente André Salazar",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Cesar Segura Serveleon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Internacional Sede Lima",
+    "Campo2": "Cardiólogo, Especialista en administración de salud, Anestesiólogo",
+    "Texto": "219 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luisa Azevedo teste mkt",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Claudia Sophia Leon Palomino",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica San Pablo Surco",
+    "Campo2": "Cardiólogo, Alergista, Cirujano vascular",
+    "Texto": "90 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Internacional Sede San Borja Hospitalario",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano cardiovascular y torácico",
+    "Texto": "14 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica del Inca",
+    "Campo2": "Cardiólogo, Cirujano vascular, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Red Salud Sac",
+    "Campo2": "Cardiólogo, Alergista, Cirujano general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica San Juan Bautista",
+    "Campo2": "Cardiólogo, Especialista en administración de salud, Cirujano cardiovascular y torácico",
+    "Texto": "61 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Centenario Peruano Japonesa",
+    "Campo2": "Cardiólogo, Especialista en administración de salud, Alergista",
+    "Texto": "244 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Essalud - Hospital Nivel IV Guillermo Almenara Irigoyen",
+    "Campo2": "Cardiólogo, Cirujano general, Cirujano pediátrico",
+    "Texto": "17 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Alberto Buleje Terrazas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ronald Wilfre Morales Herrera",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Avenida Joseph Thompson, 140, San Borja",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica San Miguel",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Instituto de Cardiologia de Lima Cardiomedic",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano cardiovascular y torácico",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Instituto Nacional de Salud del Niño San Borja",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano plástico",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Manuel Laura Lozada",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luz Gisella Mendoza Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "7 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Maria Elena Loo Valverde",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "2 opinión",
+    "Texto1": "Av. Rebagliati 490, Jesús María",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "David German Galvez Caballero",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Raul David Alegre Chang",
+    "Campo2": "Cardiólogo",
+    "Texto": "8 opinión",
+    "Texto1": "Av. Gregorio Escobedo 650, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Eduardo Freddy Matos Morales",
+    "Campo2": "Cardiólogo",
+    "Texto": "4 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Vladimir Perovic Saponaro",
+    "Campo2": "Cardiólogo",
+    "Texto": "6 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Antero Rivera Vilchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "7 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Alicia Mispireta Castañeda",
+    "Campo2": "Cardiólogo",
+    "Texto": "8 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Felix Martin Davalos Quevedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "6 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ronald Misolino Bastidas Tirado",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ladys Ruth Cardenas Levano",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Victor Elias Rodriguez Chavez",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. José Carlos Armendáriz Ferrari",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Avenida Javier Prado Este, 4200, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Eduardo Fu Huby",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jesus Mario Carrion Chambilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Antonio Angel Skrabonja Crespo",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gerald Carlos Levano Pachas",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Nemias Humberto Celis Lozano",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Enrique Chavarry Ysla",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Fernando José Córdova Gómez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Odorico Belzusarri Guille",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Raul Rivera Buendia",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "Av. Angamos Oeste, cuadra 4 (Esquina con la calle General Borgoño), Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Cesar Vela Acosta",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alfredo Jose Tong Ramos",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Antonio Vlasica Carlos",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ana Mirella Venturelli Cotrina",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Angel David Vasquez Villar",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Cardiovascular",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Mario Benjamín García Saavedra",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Victor Galvez Villacorta",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Jorge Washington 1491, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Claudio Euler Torres Cerpa",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Av Benavides 5362, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Fernando Córdova Gómez",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Oswaldo Lescano Lopez",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Emilio Choy Quintanilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Miní Miranda",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gorky Ernesto Mori Pinedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Av. Gregorio Escobedo 650, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Guillermo Bernal Merino",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hector Enrique Shibao Sakamoto",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Humberto Ciro Mejia Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Richard Edward Salas Cordero",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Enrique Alberto Perez del Portal",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Leonardo Alfredo Villa Medina",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ursula Jeanette Peña Camacho",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ricardo Coloma Araniya",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Isaac Rodriguez Montes de Oca",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Esteban Ortiz Samanamud",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alicia Wendalina Mispireta Castañeda",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Angolina Rospigliosi Benavides",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Alexander Valdiviezo Roman",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Juan Lema Osores",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "1 opinión",
+    "Texto1": "Av. Alfonso Ugarte 848, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Nestor Amador Gonzales Vargas",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Alfredo Watanabe Tashima",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "José Maria Bouroncle Carreón",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Frank Antonio Octavio Lizaraso Soto",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Ramiro Mariño Vigo",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Enrique Debarbieri Noriega",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Edda Melissa Lombardi Franco",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Av. Garcilaso de la Vega 1420, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Wilmer Manfredo Villegas Izaguirre",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Augusto Velásquez Manrique",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Moises Quiroz Lozada",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Moises Alejandro Martinez Estremadoyro",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Cecilia García Sandoval",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Revilla Avalos",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Luisa del Carmen Bardelli Guibovich",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Tania Lisset Pozo Ibañez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Jose Zegarra Carhuas",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Javier Arturo Chumbe Montoro",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roy German Dueñas Carbajal",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Delmiro Escobedo Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Antero Chavez Ayala",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Callao",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Evaristo Sanchez Pineda",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maritza Lucía Rosales Vidal",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Heraclides Plinio Obregon Vilches",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Goovert Pastor Tejada Pacheco",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Federico Guillermo Osores Donayre",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Orestes Cesar Salazar Candiotti",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Arturo Torres Perez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jaime Enrique Cunza Paredes",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Rodriguez Villegas",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Zoila Emperatriz Moreau Moncada",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Av. Faustino Sánchez Carrión, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ruben Calderon Fernandez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Olumide Folarin Thompson",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Cardiologico Corazón de Jesus",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro de Reposo La Molinai",
+    "Campo2": "Cardiólogo, Geriatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Guillermo Kaelín de la Fuente",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Edith Chavez Huapalla",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Armando Godoy Palomino",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Av. Angamos Oeste, cuadra 4 (Esquina con la calle General Borgoño), Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Aldo Castañeda Melgar",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Jorge Washington 1491, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Lucy Calderon Valderrama",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Antonio Skrabonja Crespo",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Augusto Chois Málaga",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Guido Battilana Suito",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Mario Zubiate Talledo",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Ortiz Samanamud",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Walter Yañez Vivanco",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Razzeto Rios",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Eduardo Alfredo Hernani Lau",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dante Antonio Peñaloza Ramella",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Pedro Luyo Vera",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Omar Villanueva Muñoz",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Sanez Vigil",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Javier Pinto Concha",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Waldo Fernandez Durand",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Oscar Alvarado Contreras",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Mirtha Rufina Flores Lagos",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Walter Cabrera Honorio",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. José Guerra Enriquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Bernardo Enrique Gonzales Peña",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Angel Hugo Mendoza Gutarra",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Christian Nolte Rickards",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Maritza Milagritos Rodriguez Sifuentes",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Percy Duncker Berrospi Argandoña",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Wilfredo Javier Velezmoro Ojeda",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Javier Prado este 1066, San Isidro",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Julio Cesar Garcia Matheus",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Callao",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hugo Cesar Escalante Rojas",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hugo Martin Esquivel Garcia",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ruben Arturo Romero Correa",
+    "Campo2": "Cardiólogo",
+    "Texto": "3 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Alberto Vecco Vargas Machuca",
+    "Campo2": "Cardiólogo",
+    "Texto": "9 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Edilberto Estela Chunga",
+    "Campo2": "Cardiólogo",
+    "Texto": "2 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Flor De Maria Ibañez Sevilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Av. Paso De Los Andes 675, Pueblo Libre",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Pedro Mayorga Grados",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Irma Arima Fujita",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. César Lizarraga León",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Edith Lapoint Montes",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "1 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Eduardo De La Cruz Yaya",
+    "Campo2": "Cardiólogo",
+    "Texto": "1 opinión",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Sergio Antonio Moreno Martinez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Eva Gloria Ticona Chavez",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Eduardo Chipana Osiro",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jaime Alberto Minchola Haro",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Doris Sonia Guzman Chavez",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Carolina Luisa Guevara Caicedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "El Polo 789, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Walter Alberto Alarco Leon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "El Polo 789, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Abilio Ernesto La Matta Castro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roger Rivera Garmendia",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ida Angelica Arciniega Rojas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Esperanza Amalia N Mestas Nuñez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victor Arnulfo Arce Machuca",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Omar Alfonso Blas Estrada",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Santiago Jose Campodonico Hoyos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ana Luisa López Magallanes",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dajhana Medina Solorzano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Sandra Adela Negron Miguel",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Pia Reineria Romero Gavazzi",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Christian Inocente Soplopuco Palacios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Gregorio Escobedo 650, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Oscar Vargas Ezquerra",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Gilberto Villalta Malqui",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Javier Valdivia Zeballos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Haydee Elizabeth Bautista Bendezu",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guadalupe Violeta Cabanillas Toro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pablo Ernesto Cardenas Rojas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Bertha Aidee Gonzales Alvarez",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Nicolas Icanaque Yesang",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marcos Raúl Jauregui Contreras",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Wilder Adolfo Sandoval Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ernesto Isaias Antonio Torres Ruiz",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Anuor Humberto Ulloa Montoya",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mario Fernando Zevallos Blas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Abelardo Alania de la Cruz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alfonso Antonio Bryce Moncloa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Castañeda Pilo-Pais",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Paul Jose Hurtado Vasquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Manuel Milmark Laura Lozada",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Alfredo Salinas Mondragon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Salvador Teodoro Sialer Chaparro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alfredo Ruben Vega Cisneros",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Augusto Zavala Andrade",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marcos Henry Almendras Jaramillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mary Hilaria Panana Holgado",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Antonio Inga Ayac",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Jorge Abugattas Jasaui",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guido Eduardo Nicolas Battilana Suito",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Sandro Felipe Cerna Nomberto",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Guillermo Danessi Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "German Francisco Henostroza Alzamora",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Elver Diogenes Leguia Valentin",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Fanny Cristina Otiniano Costa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "José Antonio Pérez León",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rufo Martin Postigo Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Francisco Sanchez Moreno Ramos",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Alejandro Tueros Taipe",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Fernando Valverde Olortegui",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Guillermo Danessi Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Paso De Los Andes 675, Pueblo Libre",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Elia Rosa Pinillos Ybañez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Telma Mercedes Avalos Aspajo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rosa Isabel Caballero Morales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rosa Maria Patricia Escudero Codina",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Percy Adrian Garcia Arana",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Humberto Oliveros Oyola",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Melchor Alvarez Murillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Angel Escudero Calmet",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aida Elsa Medina Viglienzoni",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Sebastian Reyes Villanes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "James Jesus Mariano Zeppilli Kershaw",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Jirón Ancash, 809, Barrios Altos",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Enrique Campos Silva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Alberto Dioses Rizzi",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Tomas Walter Escobedo Ayala",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Candia Cahuana",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Emilio Delgado Agurto",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Aurelio La Torre Quino",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Alejandro Parodi Ramirez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oscar Javier Ramirez Quito",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Reynaldo Pastor Castillo Leon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hector Eduardo Molina Calle",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Emilio Pablo Choy Quintanilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Julio Roberto Durand Velasquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Guillermo Ercilla Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Edgar Damian Gloria Olivares",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guillermo Jose Ramirez Roman",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Alfonso Francisco Rios Oliva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Francisco Jose Sime Barbadillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Guillermo Solano Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hernan Roman Garcia Rondon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dario Hernandez Alarcon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Luis Vinces Bazo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Regulo Jose Agusti Campos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Walter Daniel Yañez Vivanco",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Italo Leon-Silva Lizarraga",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Manuel Eduardo Horna Noriega",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Emilio Alfredo Tafur Revilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hermogenes Saenz Loayza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Alejandro Parra Galvan",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Armando Guerra Enriquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ana Maria Vergara Bao",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pablo Antonio Mendoza Novoa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Esmeralda Rosalia Paucca Montoya",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gustavo Rivara Ruiz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Enrique Salvador Ulloa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Maximo Gomez Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Felix Enrique Longaray Chau",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "José Henrry Daniel Jibaja Huarca",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Manuel Francisco Solis Ustria",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "David Andres Moreyra Espichan",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Irma Gladys Arima Fujita",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Rocio Janet Mendoza Calvo",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Kattia Kaseli Paredes Sevilla",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Manuel Castañeda Leon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Manuel Castañeda Leon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gustavo Edward Valderrama Valle",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Alejandro Curotto de la Cruz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "German Francisco Fernandez Carrasco",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Antonio Castillo Campos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Baltazar Elmer Sanchez Pereda",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Otoniel Garayar Lopez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jesus Poma Claros",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victor Huisa Lopez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Carlos Moron Siguas",
+    "Campo2": "Cardiólogo, Especialista en administración de salud",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Cecilia Clemencia Libertad Peña Perret",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Fernando Alfredo Munayco Martinez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marva Perez-Palma Gustavson",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Ricardo Sanchez Palacios Paiva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Raul Alfredo Fernandez Campodonico",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Waldo Alberto Fernandez Duran",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Subiria Carrillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rosa Anthoanet Soto Medina",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Edwin Ulises Mauro Uribe Badillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Augusto Martorrel Carreño",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gabriela Ysabel Guevara Castilla",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Manuel Kunikami Ynafuku",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victoria Celeste Armas Rodriguez",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rosalia Ofelia Fernandez Coronado",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carmen Garayar Campos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Leopoldo Munive Sarmiento",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mario Cesar Zubiate Talledo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Yudy Miluska Roldan Concha",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Los Constructores 1272 , La Molina",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Libia Isabel Lu Galarreta",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Teresa Isabel Vasquez Namuche",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Vicente Burgos Bustamante",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hipolito Sanchez Tejada",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jaime Aurelio Obando Carbajal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maria Angelica Lourdes Lengua Morales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Luis Ortega Diaz",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Evert Edgardo Torrejon Carbajal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av Benavides 5362, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Abel Lorenzo Zubiaga Gosicha",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Miriam Cecibel Ramirez Boulangger",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Arturo Lira Guillen",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rosibel Marcoza Bustamante Salcedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Alberto Pino Morales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Enrique Francisco Pareja Perbuli",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Wherter Hernan Vela Jara",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Wilfredo Bolaños Vergaray",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guido Battilana Dasso",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aldo Edwin Rodriguez Escudero",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Julio Cesar Camacho Ramirez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Manuel Alberto Chacon Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ofelia Araoz Tarco",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. El Polo 570, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Luciano Zelaya Vargas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oscar Nelson Aguirre Zurita",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Arturo Alban Moral",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oscar Enrique Pereira Salinas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cecilio Ausberto Zamora Huaman",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Henry Alexander Anchante Hernandez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Rosales Rosales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Ernani Dyer Otero",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Fernando Carlos Aristides Rios Carrillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Franklin Roberto Espinoza Mori",
+    "Campo2": "Cardiólogo, Especialista en medicina nuclear",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Braulio Lorena Mejia",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Julio Edilberto Gutierrez Garcia",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roberto Marin Sojo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jesus Alfredo Ferreyra Mejia",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Eduardo Jorge Zuleta Arcila",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Javier Eusebio Pinto Concha",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Edith Haydee Chavez Huapalla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guillermo Jesus Bustamante Novella",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Felix Alonso Revilla Manchego",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marcial Contreras Soncco",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maximo Fernan Delgado Pozo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Edgardo Dulanto Monteverde",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Simon Pascual Hurtado Cano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Felix Enrique Navarro Casas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marco Antonio Almeri Estrada",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rafael Humberto Larco Gonzales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Diego Alonso Arteta Caceres",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pedro Bernardo Pino del Pozo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oscar Herrera de los Santos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Silva Campos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pedro Gavino Yanac Chavez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pedro Antonio Huamani Pucllas",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gustavo Luis Saravia Risso",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rodolfo Ramon Barreto Farfan",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aurelio Sanchez Andoyza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Javier William Rivas Chavez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Maximo Enrique Loo Leon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mario Alberto Vargas Galgani",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pedro Martin Salazar Caceres",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Manuel Chaman Ortiz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ivonne Scarlett Deonicio Palpan",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Antonio Alvarado Rodriguez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Jorge Schoster Hernandez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Renzo Barbini",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Agustin Reyes Rocha",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Rebagliati 490, Jesús María",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aida del Carmen Rotta Rotta",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "Av. Honorio Delgado 370, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Rodolfo Yarleque Gomez-Silva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Lucy Hayde Calderon Valderrama",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Zosimo Venancio Pineda Mejia",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Frank Wallace Britto Palacios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Armando Lionel Godoy Palomino",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Antonio Larrauri Vigna",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roberto Carlos Baltodano Arellano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Jesus Gamarra Iturregui",
+    "Campo2": "Cardiólogo, Pediatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Leon Eduardo Armando Diez Martinez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Osmani Janampa Quispe",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Davide Corrado Martin Magnani Martinez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Claudio Guido Mori Gonzales",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Angel Mini Miranda",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Segura Vega",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ciro Alberto Barrantes Alarcón",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Alejandro Gonzales Reyes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Manuel Sosa Rosado",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Garcilaso de la Vega 1420, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mario Ricardo Carhuancho Lucen",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ana Bertha Remuzgo Lepaje",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Leonor Zoila Melgarejo Dextre",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Herbert Bittrich Gomez-Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Alberto Cubas Castro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Manuel Americo Drago Silva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Felix Alvaro Medina Palomino",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Angamos Oeste, cuadra 4 (Esquina con la calle General Borgoño), Miraflores",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dwight Ramiro Gerald Velasquez Sifuentes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Zoila Leticia Diaz Orrego",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dantes Gustavo Ordinola Pineda",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Luis Nuñez Encinas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Bacilio Grimaldo Peña Flores",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cecilia Aurora Cuevas de la Cruz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aldo Justo Gutierrez Boudry",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pedro Nuñez Torres",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Sonia Victoria Alvarado Vargas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roxana del Milagro Cardenas Ormeño",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. John Adaly Gallegos Jara",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av Benavides 5362, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Rolando Hidalgo Rosales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gustavo Ernesto Delgado Matallana",
+    "Campo2": "Cardiólogo, Geriatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Domingo Lopez Calderon",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Freddy Acosta Valer",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Patricio Rafael Martin Doig Bernuy",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Herbert Alejandro Lopez Echazu",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Pio Daniel Zelaya Castro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oswaldo Nestor Lescano Lopez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Javier Jair Obregon Oblitas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rodolfo Leon Carpio",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Felix Humberto Nunura Arrese",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Ángel Amador Andrade Mondoñedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Angelica Corvacho Bolaños",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jaime Cesar Espinoza Solis",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Enrique Ruiz Mori",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Roberto Jose Carbonel Pezo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Vladimir Carlos Rea Calvo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carolina Lili Pimentel Fernandez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Augusto Armando Estremadoyro Pardo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Marco Antonio Pastrana Castillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Liliana Socorro Benavente Montoya",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victor Roberto Hernandez Marquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hugo Arturo Dejo Bustios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Miguel Jose Macalopu Castillo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Isolina Aburto Soria",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Roberto Murillo Beteta",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Paso De Los Andes 675, Pueblo Libre",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Lisbeth Hilda Sanchez Zuñiga",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Leonor Estela Ayala Bustamante",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Omar Alberto Palacios Barrios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Roger Castro Loayza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Waldeyer Swat Becerra Carranza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jose Enrique Tordoya Cabezas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Segundo Asuncion Gallardo Vallejo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Eleazar Bravo Mannucci",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Gustavo Roberto Miranda Rivas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Enrique Tapia Colonna",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ana Cecilia Gonzales Luna",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alex Gallegos Cazorla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Limatambo",
+    "Campo2": "Cardiólogo, Alergista, Patólogo",
+    "Texto": "223 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica San Felipe",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano vascular",
+    "Texto": "307 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Anglo Americana - Sede San Isidro",
+    "Campo2": "Cardiólogo, Alergista, Patólogo",
+    "Texto": "106 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Good Hope",
+    "Campo2": "Cardiólogo, Alergista, Anestesiólogo",
+    "Texto": "311 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Auna - Clínica Bellavista",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano general",
+    "Texto": "34 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Providencia",
+    "Campo2": "Cardiólogo, Cirujano general, Gastroenterólogo",
+    "Texto": "16 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Santa María del Sur - Complejo Hospitalario San Pablo",
+    "Campo2": "Cardiólogo, Alergista, Cirujano vascular",
+    "Texto": "15 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Edgardo Rebagliati Martins",
+    "Campo2": "Cardiólogo, Especialista en administración de salud, Alergista",
+    "Texto": "370 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Complejo Hospitalario San Pablo - Clinica San Gabriel",
+    "Campo2": "Cardiólogo, Alergista, Cirujano cardiovascular y torácico",
+    "Texto": "217 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Vesalio",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "127 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Delgado Lima Auna",
+    "Campo2": "Cardiólogo, Alergista, Cirujano general",
+    "Texto": "80 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Ricardo Palma",
+    "Campo2": "Cardiólogo, Cirujano plástico, Dermatólogo",
+    "Texto": "31 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica San Judas Tadeo",
+    "Campo2": "Cardiólogo, Cirujano general, Geriatra",
+    "Texto": "27 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Javier Prado",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "43 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Maison de Sante-Surco",
+    "Campo2": "Cardiólogo, Alergista, Anestesiólogo",
+    "Texto": "89 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica de Día Jockey Salud",
+    "Campo2": "Cardiólogo, Alergista, Patólogo",
+    "Texto": "60 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica El Golf",
+    "Campo2": "Cardiólogo, Cirujano general, Cirujano maxilofacial",
+    "Texto": "52 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica San Borja",
+    "Campo2": "Cardiólogo, Alergista, Patólogo",
+    "Texto": "185 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Médica Cayetano Heredia",
+    "Campo2": "Cardiólogo, Alergista, Anestesiólogo",
+    "Texto": "69 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica del Hospital Maria Auxiliadora",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "36 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica San Camilo",
+    "Campo2": "Cardiólogo, Cirujano general, Cirujano pediátrico",
+    "Texto": "19 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Miraflores",
+    "Campo2": "Cardiólogo, Anestesiólogo, Bioquímico",
+    "Texto": "33 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Lezza",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano general",
+    "Texto": "24 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Gonzalez",
+    "Campo2": "Cardiólogo, Anestesiólogo, Cirujano cardiovascular y torácico",
+    "Texto": "56 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Nacional Arzobispo Loazya",
+    "Campo2": "Cardiólogo, Patólogo, Anestesiólogo",
+    "Texto": "116 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Militar Central \"Luis Arias Schreiber\"",
+    "Campo2": "Cardiólogo, Patólogo, Anestesiólogo",
+    "Texto": "21 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Oncosalud",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "3 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Arzobispo Loayza",
+    "Campo2": "Cardiólogo, Cirujano general, Gastroenterólogo",
+    "Texto": "4 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Monterrico",
+    "Campo2": "Cardiólogo, Médico general, Urólogo",
+    "Texto": "10 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Policlinico Peruano Japones",
+    "Campo2": "Cardiólogo, Cirujano general, Dermatólogo",
+    "Texto": "14 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica de Ojos Opeluce",
+    "Campo2": "Cardiólogo, Oftalmólogo",
+    "Texto": "5 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Policlinico Nuestra Señora de los Angeles",
+    "Campo2": "Cardiólogo, Psiquiatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Centro Cardiológico Mispireta",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospitales de la Solidaridad Surquiilo-Lima Centro-Ate-Carabayllo-Pata Hermosa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospitales Solidaridad Salud. Camana Lima Centro, Surquillo, Ate, Pta Hermosa.",
+    "Campo2": "Cardiólogo, Ginecólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Corazon Sano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Sabogal Essalud",
+    "Campo2": "Cardiólogo, Cirujano general, Cirujano maxilofacial",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Medisport",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinicor",
+    "Campo2": "Cardiólogo, Podólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Policlínico Ntra. Sra. de los Angeles",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Medicis",
+    "Campo2": "Cardiólogo, Ginecólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Instituto Neurocardiovascular de las Americas",
+    "Campo2": "Cardiólogo, Cirujano vascular, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Policlinico Oprece",
+    "Campo2": "Cardiólogo, Oftalmólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica Señor de Cachuy",
+    "Campo2": "Cardiólogo, Bioquímico, Fisioterapeuta",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Hospital Nacional Hipolito Unanue",
+    "Campo2": "Cardiólogo, Cirujano cardiovascular y torácico, Cirujano general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clínica La Luz",
+    "Campo2": "Cardiólogo, Alergista, Cirujano cardiovascular y torácico",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Clinica Montefiori",
+    "Campo2": "Cardiólogo, Cirujano maxilofacial, Dermatólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Medex",
+    "Campo2": "Cardiólogo, Endocrinólogo, Médico general",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Incor Instituto Nacional Cardiovascular",
+    "Campo2": "Cardiólogo, Anestesiólogo, Especialista en medicina intensiva",
+    "Texto": "6 opinión",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Carlos Debarbieri Noriega",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Victoria Armas Rodriguez",
+    "Campo2": "Cardiólogo, Médico general",
+    "Texto": "",
+    "Texto1": "El Polo 789, Surco",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Doris Sonia Guzman Chavez De Gonzales",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Enrique Bustos Lahura",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. María Lapoint Montes De Laura",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Dwight Velasquez Sifuentes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Boris Orihuela Pastor",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Maria Elena Loo Valverd",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Cesar Nicolas Conde",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Walter Escobedo Ayala",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Nancy Luzmila Ganiku Furugen",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Stella Ludmila Lucena Betancourt",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Guillermo Ercilla Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ernesto La Matta Castro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Odorico Bernardino Belzusarri Guillen",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Manuel A Chacon Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Helard Luna Rivera",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Isabel del Rocio Gutierrez Arcila",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Blanca Maria del Rosario Martinez Gutierrez",
+    "Campo2": "Cardiólogo, Geriatra",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Segundo Jesus Orrego Silva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Evelyn Sanchez Hurtado",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Percy Enrique Salomon Vildoso",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Percy Freyre Velarde-Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Maria Angelica Lourdes Lengua Morales De Mendiolaza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Bertha González Álvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Abdon Segundo Salazar Moran",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Cassinelli Inurritegui",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Gaviria Tafur",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aquiles Benedicto Vera Gomez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Guadalupe Cabanilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Enrique Loo León",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Fernando Majluf Carlin",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Patricia Rios Navarro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Henrry Daniel Jibaja Huarca",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ronald Merino Del Rosario",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Roger Martin Correa Flores",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Patricio Jose Alzamora Pierantoni",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Otilia Magda Vargas Amado",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jaime Obando Carbajal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Italo Martín Unes Rumiche",
+    "Campo2": "Cardiólogo, Cirujano maxilofacial",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Edgar Gloria Olivares",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Eduardo Magno Ponce Galarza",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Wilfredo Ezquerra Aguilar",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Augusto Francisco Chois Malaga",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Renato Alejandro Reyes Hernandez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Violeta Illatopa Cerna",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Irma Domitila Sanchez Aliaga",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Henry Anchante Hernández",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Nelson García Ch.",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Dioses Rizzi",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Pablo Mendoza Novoa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jefferson Romeo Alava Curto",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Tomas Octavio Gutierrez Alberoni",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jaime Julian Camacho Fuentes",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Manuel Toche Yañez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Patricio Alzamora Pierantoni",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Emilio Tafur Revilla",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Hugo Lincol Torrejon Carbajal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guillermo Gustavo Tobalina Yañez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Francisco Ruiz Estrada",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Luis Mispireta Vargas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jorge Ortega Díaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Enrique Saúl Sanabria Pérez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Tapia Acosta",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Alfredo Benavides Zuñiga",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Leonel Octavio Vasquez Montoya",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Rafael Doig Bernuy",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Ronald Gamarra",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Walter Alejandro Zavala Campos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Oscar Vargas E",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Javier Heredia Landeo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Bertha Gonzáles Álvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Toce Yañez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rogel Salazar Infantas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. José Jibaja Huarca",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Carlos Razzeto Rios",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Fanny Otiniano Costa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Herbert Bittrich Gómez Sánchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Augusto Flores Ponce",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Bruno Arce Cano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Abraham Flores Gamero",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Gustavo Rivara Ruiz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Angel Diaz Escalante",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Rebagliati 490, Jesús María",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Mary Kanashiro Higa",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Guillermo Eloy Orbegoso Angeles",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Marco Antonio Alzamora Iriarte",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Javier Manuel Heredia Landeo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Alejandro Houzvic Bravo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Quiroz Burgos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Watanabe Tashima",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Gregorio Escobedo 650, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Santiago Campodonico Hoyos",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Martín Mispireta Robles",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Fernando Andres Tapia Mendieta",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Rolando Alarcon Rangel",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Julián Eduardo Chuquiure Lardizabal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victor Julio Castro Cahuas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Geem M Huaringa Bejarano",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Manuel Barrueta Caldas",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Alfredo Reategui Lopez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Pedro Yanac Chávez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Jose Tapia Leonardo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. David Alberto Tellez Farfán",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Honorio Delgado 370, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carlos Hernandez Camarero",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Mario Vargas Galgani",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Carmen Patricia Rebaza Miyasato",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Luis Ovidio Canchaya Osorio",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Rodano Antartico Paredes Alpaca",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Antonio Tuma Mubarak",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Gregorio Escobedo 650, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Maritza Rosales Vidal",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. El Polo 570, Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Manuel Castañeda Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dra. Liliana Benavente Montoya",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Av. Paso De Los Andes 675, Pueblo Libre",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ricardo Cesar Vera Bisso",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Eddy Percy Jesus Freyre Velarde-Alvarez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Aldo Gerdy Martinez Alfaro",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Frank Ilazaca Cahuata",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Cesar Delgado Sayan",
+    "Campo2": "Cardiólogo, Internista",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Juan Wilfredo Parra Villanueva",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Teodoro Jose Quiñones Sanchez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Jorge Rodriguez Larrain Pendergast",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Miguel Andrade Mondoñedo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Alberto Javier Sattui Talledo",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "Lima",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Rodolfo R. Barreto Farfán",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Guillermo Bustamante Novella",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Dr. Luis Alberto Orellana Vidaure",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Victor Raul Lama Diaz",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Ruben Marino Azañero Reyna",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  },
+  {
+    "Campo1": "Walter Alfredo Paredes Vasquez",
+    "Campo2": "Cardiólogo",
+    "Texto": "",
+    "Texto1": "",
+    "Campo3": ""
+  }
+]
