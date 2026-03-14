@@ -13,9 +13,9 @@ evaluacion_bp = Blueprint('evaluacion', __name__)
 
 # Métricas de referencia de los modelos (del entrenamiento)
 METRICAS_MODELOS = {
-    'random_forest': {'accuracy': 90.91, 'precision': 83.33, 'recall': 100.0, 'f1': 90.91},
-    'decision_tree': {'accuracy': 54.55, 'precision': 50.0, 'recall': 80.0, 'f1': 61.54},
-    'svm': {'accuracy': 81.82, 'precision': 71.43, 'recall': 100.0, 'f1': 83.33},
+    'random_forest': {'accuracy': 82.33, 'precision': 83.33, 'recall': 81.67, 'f1': 80.81},
+    'decision_tree': {'accuracy': 73.67, 'precision': 61.67, 'recall': 66.67, 'f1': 62.14},
+    'svm': {'accuracy': 76.67, 'precision': 79.33, 'recall': 75.00, 'f1': 73.17},
 }
 
 

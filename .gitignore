@@ -11,3 +11,6 @@ venv/
 # Credenciales sensibles
 data/pgpass.conf
 *.pem
+
+# Claude
+.claude/
