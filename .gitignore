@@ -26,3 +26,7 @@ data/doctoralia*
 # Material de la tesis y capturas locales
 /*.docx
 /screenshots/
+# Herramientas locales de la tesis (docx, image-size y puppeteer): no son parte del sitio
+/package.json
+/package-lock.json
+/scripts/

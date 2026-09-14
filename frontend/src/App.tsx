@@ -1,66 +1,68 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { Suspense, lazy, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
+import { ErrorBoundary } from './components/ui/ErrorBoundary';
+import { EvaluacionActualProvider } from './context/EvaluacionActual';
 import { LandingPage } from './pages/LandingPage';
-import { LoginPage } from './pages/LoginPage';
-import { RegistroPacientePage } from './pages/RegistroPacientePage';
-import { RegistroMedicoPage } from './pages/RegistroMedicoPage';
-import { EvaluacionPage } from './pages/EvaluacionPage';
-import { MedicosPage } from './pages/MedicosPage';
-import { PerfilMedicoPage } from './pages/PerfilMedicoPage';
-import { AnalisisComparativoPage } from './pages/AnalisisComparativoPage';
 
-function ProtectedPerfil({ children }: { children: React.ReactNode }) {
-  const { user, loading } = useAuth();
-  if (loading) return <div className="container my-5 text-center">Cargando...</div>;
-  if (!user || user.rol !== 'medico') return <Navigate to="/" replace />;
-  return <>{children}</>;
+// Las páginas de evaluación y comparación (modelos, Chart.js) se cargan al abrirlas,
+// para que la portada no descargue modelo.json ni los gráficos.
+const EvaluacionPage = lazy(() => import('./pages/EvaluacionPage').then((m) => ({ default: m.EvaluacionPage })));
+const AnalisisComparativoPage = lazy(() =>
+  import('./pages/AnalisisComparativoPage').then((m) => ({ default: m.AnalisisComparativoPage }))
+);
+
+function IrArribaAlCambiarDeRuta() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [pathname]);
+  return null;
 }
 
-function AppRoutes() {
-  const { user, loading } = useAuth();
-
-  if (loading) {
-    return (
-      <div className="min-vh-100 d-flex align-items-center justify-content-center">
-        <div className="spinner-border" style={{ color: 'var(--primary-color)' }} role="status" />
-      </div>
-    );
-  }
-
+function Cargando() {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={user ? (user.rol === 'medico' ? <Navigate to="/perfil-medico" replace /> : <Navigate to="/evaluacion" replace />) : <LandingPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/registro" element={<RegistroPacientePage />} />
-        <Route path="/registro-medico" element={<RegistroMedicoPage />} />
-        <Route path="/evaluacion" element={<EvaluacionPage />} />
-        <Route path="/evaluacion/comparativo" element={<AnalisisComparativoPage />} />
-        <Route path="/evaluacion/medicos" element={<MedicosPage />} />
-        <Route
-          path="/perfil-medico"
-          element={
-            <ProtectedPerfil>
-              <PerfilMedicoPage />
-            </ProtectedPerfil>
-          }
-        />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-      <Footer />
-    </>
+    <div className="container my-5 text-center">
+      <span className="spinner-border text-secondary" role="status" aria-label="Cargando"></span>
+    </div>
+  );
+}
+
+function ErrorAlCargar(error: Error) {
+  return (
+    <div className="container my-5">
+      <div className="alert alert-danger">
+        <p className="mb-2">
+          No se pudo cargar esta página. Si el sitio se actualizó mientras la tenías abierta, recárgala.
+        </p>
+        <button type="button" className="btn btn-outline-danger btn-sm" onClick={() => window.location.reload()}>
+          Recargar la página
+        </button>
+        <pre className="mt-3 mb-0 small">{error.message}</pre>
+      </div>
+    </div>
   );
 }
 
 export default function App() {
   return (
     <BrowserRouter>
-      <AuthProvider>
-        <AppRoutes />
-      </AuthProvider>
+      <EvaluacionActualProvider>
+        <IrArribaAlCambiarDeRuta />
+        <Navbar />
+        <ErrorBoundary fallback={ErrorAlCargar}>
+          <Suspense fallback={<Cargando />}>
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/evaluacion" element={<EvaluacionPage />} />
+              <Route path="/evaluacion/comparativo" element={<AnalisisComparativoPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Suspense>
+        </ErrorBoundary>
+        <Footer />
+      </EvaluacionActualProvider>
     </BrowserRouter>
   );
 }

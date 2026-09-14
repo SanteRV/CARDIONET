@@ -13,7 +13,18 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar, Doughnut, Radar } from 'react-chartjs-2';
-import type { EvaluacionComparativo, EvaluacionResultado } from '../../api/evaluacion';
+import {
+  METRICAS,
+  MODELOS,
+  type Estadistico,
+  type MetricaId,
+  type MetricasApp,
+  type ModeloId,
+  type ResultadoModelo,
+} from '../../api/evaluacion';
+import { aPorcentaje, dosDecimales, porcentaje, porcentajeProbabilidad } from '../../utils/formato';
+import { AvisoResultado } from './Avisos';
+import { QueHacerAhora } from './QueHacerAhora';
 
 ChartJS.register(
   CategoryScale,
@@ -28,185 +39,223 @@ ChartJS.register(
   Legend
 );
 
-const MODELO_LABELS: Record<string, string> = {
-  random_forest: 'Random Forest',
-  decision_tree: 'Árbol de Decisión',
-  svm: 'SVM',
+/**
+ * Un color por modelo, sin rojo ni verde: ninguno debe leerse como «bien» o «mal».
+ * Vino (tono de la app), azul pizarra y gris. Contraste (fórmula WCAG) con el fondo blanco: 8,5:1, 5,5:1 y 3,9:1;
+ * con la pista gris de los medidores: 7,4:1, 4,9:1 y 3,4:1. Tienen luminosidades distintas (1,5:1 entre vino y
+ * azul, 1,4:1 entre azul y gris), así que impresos en gris tampoco se ven iguales. Los pares se siguen
+ * distinguiendo con simulación de protanopia y deuteranopia.
+ */
+const COLORS: Record<ModeloId, { main: string; border: string }> = {
+  random_forest: { main: 'rgb(140, 42, 46)', border: 'rgb(140, 42, 46)' },
+  arbol_decision: { main: 'rgb(79, 106, 143)', border: 'rgb(79, 106, 143)' },
+  svm: { main: 'rgb(123, 130, 136)', border: 'rgb(123, 130, 136)' },
 };
 
-const COLORS = {
-  random_forest: { main: 'rgba(119, 27, 30, 0.9)', fill: 'rgba(119, 27, 30, 0.25)', border: 'rgb(119, 27, 30)' },
-  decision_tree: { main: 'rgba(40, 167, 69, 0.9)', fill: 'rgba(40, 167, 69, 0.25)', border: 'rgb(40, 167, 69)' },
-  svm: { main: 'rgba(0, 123, 255, 0.9)', fill: 'rgba(0, 123, 255, 0.25)', border: 'rgb(0, 123, 255)' },
+/** Forma de los puntos del radar: el modelo se distingue también sin color (p. ej. impreso en gris). */
+const PUNTO: Record<ModeloId, 'circle' | 'rect' | 'triangle'> = {
+  random_forest: 'circle',
+  arbol_decision: 'rect',
+  svm: 'triangle',
 };
 
-const CHART_KEYS = {
-  gauges: 'gauges',
-  barras: 'barras',
-  radar: 'radar',
-  barrasAgrupadas: 'barrasAgrupadas',
-} as const;
+/**
+ * Radar sin relleno: las medias de SVM y Random Forest son muy parecidas y, con los polígonos rellenos, la línea
+ * gris de SVM quedaba tapada. SVM va con línea discontinua y se dibuja encima (en Chart.js, el «order» más bajo
+ * queda arriba); por los huecos de su trazo se sigue viendo la línea de debajo.
+ */
+const TRAZO_RADAR: Record<ModeloId, { dash: number[]; order: number }> = {
+  random_forest: { dash: [], order: 1 },
+  arbol_decision: { dash: [], order: 2 },
+  svm: { dash: [6, 4], order: 0 },
+};
 
-interface Props {
-  comparativo: EvaluacionComparativo;
-  resultado: EvaluacionResultado;
+/** Color del texto (no el del modelo): las cifras se leen igual en los tres medidores. */
+const COLOR_TEXTO = '#212529';
+
+type ChartKey = 'gauges' | 'barras' | 'radar' | 'barrasAgrupadas';
+
+const CHART_LABELS: Record<ChartKey, string> = {
+  gauges: 'Medidores',
+  barras: 'Barras',
+  radar: 'Radar',
+  barrasAgrupadas: 'Métricas',
+};
+
+/** Métricas que se grafican en escala 0–100 % (el AUC va solo en la tabla). */
+const METRICAS_EN_PORCENTAJE: MetricaId[] = ['exactitud', 'sensibilidad', 'especificidad', 'precision', 'f1'];
+
+function formatoMetrica(id: MetricaId, valor: number): string {
+  return id === 'auc' ? dosDecimales(valor) : porcentaje(valor);
 }
 
-export function AnalisisComparativo({ comparativo }: Readonly<Props>) {
-  const [visibleCharts, setVisibleCharts] = useState<Record<string, boolean>>({
-    [CHART_KEYS.gauges]: true,
-    [CHART_KEYS.barras]: true,
-    [CHART_KEYS.radar]: true,
-    [CHART_KEYS.barrasAgrupadas]: true,
+/**
+ * Media ± desviación y, debajo, mínimo y máximo (en la tabla y en las tarjetas del celular).
+ * Cada cifra va en un bloque que no se parte: en columnas estrechas (y en el PDF) el «%» no queda solo en otra línea.
+ */
+function ValorMetrica({ id, e }: Readonly<{ id: MetricaId; e: Estadistico }>) {
+  return (
+    <>
+      <span className="text-nowrap">{formatoMetrica(id, e.media)}</span>
+      {e.desviacion !== null && (
+        <>
+          {' '}
+          <span className="text-nowrap">± {formatoMetrica(id, e.desviacion)}</span>
+        </>
+      )}
+      {e.min !== null && e.max !== null && (
+        <div className="text-muted small">
+          <span className="text-nowrap">mín. {formatoMetrica(id, e.min)}</span> ·{' '}
+          <span className="text-nowrap">máx. {formatoMetrica(id, e.max)}</span>
+        </div>
+      )}
+    </>
+  );
+}
+
+/** Frase con el modelo de mayor exactitud media, calculada desde metricas.json. */
+function textoExactitud(metricas: MetricasApp): string {
+  const ranking = MODELOS.flatMap((id): { id: ModeloId; e: Estadistico }[] => {
+    const e = metricas.modelos[id]?.exactitud;
+    return e ? [{ id, e }] : [];
+  }).sort((a, b) => b.e.media - a.e.media);
+  if (ranking.length === 0) return 'Las métricas muestran cómo se comportó cada modelo en la validación.';
+
+  const [primero, segundo] = ranking;
+  const nombre = (id: ModeloId) => metricas.nombres[id];
+  if (segundo && segundo.e.media === primero.e.media) {
+    return `En la validación, ${nombre(primero.id)} y ${nombre(segundo.id)} tuvieron la misma exactitud media (${porcentaje(primero.e.media)}).`;
+  }
+  let texto = `En la validación, la mayor exactitud media fue la de ${nombre(primero.id)} (${porcentaje(primero.e.media)}).`;
+  if (segundo && primero.e.desviacion !== null && primero.e.media - segundo.e.media < primero.e.desviacion) {
+    texto += ` La diferencia con ${nombre(segundo.id)} (${porcentaje(segundo.e.media)}) es menor que la desviación estándar.`;
+  }
+  return texto;
+}
+
+interface Props {
+  /** Resultado de cada modelo para los datos evaluados; null si no hay evaluación. */
+  modelos: ResultadoModelo[] | null;
+  metricas: MetricasApp;
+  /**
+   * false mientras se exporta el PDF: al cambiar al ancho del PDF, Chart.js vuelve a animar los gráficos y
+   * la copia salía a mitad de la animación (el radar, vacío). Sin animación se redibujan al instante.
+   */
+  animar?: boolean;
+}
+
+export function AnalisisComparativo({ modelos, metricas, animar = true }: Readonly<Props>) {
+  const [visibleCharts, setVisibleCharts] = useState<Record<ChartKey, boolean>>({
+    gauges: true,
+    barras: true,
+    radar: true,
+    barrasAgrupadas: true,
   });
 
-  const toggleChart = (key: string) => {
-    setVisibleCharts((prev) => ({ ...prev, [key]: !prev[key] }));
-  };
+  const { n, nConEnfermedad, nSinEnfermedad, filasEnArchivo, filasDescartadas, validacion, fuente, nombres } = metricas;
+  const resultados = modelos ?? [];
+  const hayCaso = resultados.length > 0;
+  const modelosConMetricas = MODELOS.filter((id) => metricas.modelos[id]);
+  const metricasGrafico = METRICAS.filter(
+    (m) => METRICAS_EN_PORCENTAJE.includes(m.id) && modelosConMetricas.some((id) => metricas.modelos[id]?.[m.id])
+  );
+  const metricasTabla = METRICAS.filter((m) => modelosConMetricas.some((id) => metricas.modelos[id]?.[m.id]));
 
-  const showAll = () => setVisibleCharts({ [CHART_KEYS.gauges]: true, [CHART_KEYS.barras]: true, [CHART_KEYS.radar]: true, [CHART_KEYS.barrasAgrupadas]: true });
-  const hideAll = () => setVisibleCharts({ [CHART_KEYS.gauges]: false, [CHART_KEYS.barras]: false, [CHART_KEYS.radar]: false, [CHART_KEYS.barrasAgrupadas]: false });
+  const graficosDisponibles: ChartKey[] = [
+    ...(hayCaso ? (['gauges', 'barras'] as ChartKey[]) : []),
+    ...(metricasGrafico.length >= 3 ? (['radar'] as ChartKey[]) : []),
+    ...(metricasGrafico.length > 0 ? (['barrasAgrupadas'] as ChartKey[]) : []),
+  ];
 
-  const modelos = [
-    { key: 'random_forest', data: comparativo.random_forest },
-    { key: 'decision_tree', data: comparativo.decision_tree },
-    { key: 'svm', data: comparativo.svm },
-  ].filter((m) => m.data);
+  const toggleChart = (key: ChartKey) => setVisibleCharts((prev) => ({ ...prev, [key]: !prev[key] }));
+  const setAll = (visible: boolean) =>
+    setVisibleCharts({ gauges: visible, barras: visible, radar: visible, barrasAgrupadas: visible });
+  const mostrar = (key: ChartKey) => graficosDisponibles.includes(key) && visibleCharts[key];
 
-  const metricas = comparativo.metricas_modelos || {};
-  const modelosConMetricas = modelos.filter((m) => metricas[m.key]);
-
-  const radarData = {
-    labels: ['Exactitud', 'Precisión', 'Sensibilidad', 'F1-Score'],
-    datasets: modelosConMetricas.map((m) => ({
-      label: MODELO_LABELS[m.key],
-      data: [
-        metricas[m.key].accuracy,
-        metricas[m.key].precision,
-        metricas[m.key].recall,
-        metricas[m.key].f1,
-      ],
-      backgroundColor: COLORS[m.key as keyof typeof COLORS].fill,
-      borderColor: COLORS[m.key as keyof typeof COLORS].border,
-      borderWidth: 2,
-      pointBackgroundColor: COLORS[m.key as keyof typeof COLORS].border,
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: COLORS[m.key as keyof typeof COLORS].border,
-    })),
-  };
-
-  const chartProbData = {
-    labels: modelos.map((m) => MODELO_LABELS[m.key] || m.key),
-    datasets: [
-      {
-        label: 'Probabilidad de riesgo (%)',
-        data: modelos.map((m) => (m.data ? Number((m.data.probabilidad * 100).toFixed(1)) : 0)),
-        backgroundColor: modelos.map((m) => COLORS[m.key as keyof typeof COLORS].main),
-        borderColor: modelos.map((m) => COLORS[m.key as keyof typeof COLORS].border),
-        borderWidth: 2,
-        borderRadius: 8,
-        borderSkipped: false,
-      },
-    ],
-  };
+  const datosMetrica = (id: ModeloId) =>
+    metricasGrafico.map((m) => {
+      const e = metricas.modelos[id]?.[m.id];
+      return e ? aPorcentaje(e.media) : null;
+    });
 
   return (
     <div className="card shadow">
       <div className="card-header bg-light d-flex flex-wrap justify-content-between align-items-center gap-2">
-        <span className="fw-semibold">Comparativa de modelos ML</span>
-        <div className="d-flex flex-wrap align-items-center gap-2 small">
-          <span className="text-muted">Mostrar gráficos:</span>
-          <div className="form-check form-check-inline">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="chk-gauges"
-              checked={visibleCharts[CHART_KEYS.gauges]}
-              onChange={() => toggleChart(CHART_KEYS.gauges)}
-            />
-            <label className="form-check-label" htmlFor="chk-gauges">Gauges</label>
+        <span className="fw-semibold">Comparación de modelos</span>
+        {graficosDisponibles.length > 0 && (
+          <div className="d-flex flex-wrap align-items-center gap-2 small" data-html2canvas-ignore>
+            <span>Mostrar gráficos:</span>
+            {graficosDisponibles.map((key) => (
+              <div className="form-check form-check-inline" key={key}>
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  id={`chk-${key}`}
+                  checked={visibleCharts[key]}
+                  onChange={() => toggleChart(key)}
+                />
+                <label className="form-check-label" htmlFor={`chk-${key}`}>{CHART_LABELS[key]}</label>
+              </div>
+            ))}
+            <button type="button" className="btn btn-sm btn-outline-light" onClick={() => setAll(true)}>Todos</button>
+            <button type="button" className="btn btn-sm btn-outline-light" onClick={() => setAll(false)}>Ninguno</button>
           </div>
-          <div className="form-check form-check-inline">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="chk-barras"
-              checked={visibleCharts[CHART_KEYS.barras]}
-              onChange={() => toggleChart(CHART_KEYS.barras)}
-            />
-            <label className="form-check-label" htmlFor="chk-barras">Barras</label>
-          </div>
-          <div className="form-check form-check-inline">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="chk-radar"
-              checked={visibleCharts[CHART_KEYS.radar]}
-              onChange={() => toggleChart(CHART_KEYS.radar)}
-            />
-            <label className="form-check-label" htmlFor="chk-radar">Radar</label>
-          </div>
-          <div className="form-check form-check-inline">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="chk-agrupadas"
-              checked={visibleCharts[CHART_KEYS.barrasAgrupadas]}
-              onChange={() => toggleChart(CHART_KEYS.barrasAgrupadas)}
-            />
-            <label className="form-check-label" htmlFor="chk-agrupadas">Métricas</label>
-          </div>
-          <button type="button" className="btn btn-sm btn-outline-secondary" onClick={showAll}>Todos</button>
-          <button type="button" className="btn btn-sm btn-outline-secondary" onClick={hideAll}>Ninguno</button>
-        </div>
+        )}
       </div>
       <div className="card-body">
         <p className="text-muted small mb-4">
-          Comparativa entre Random Forest (modelo principal), Árbol de Decisión y SVM para esta evaluación.
+          Random Forest es el modelo principal de la app; el árbol de decisión y SVM se muestran para comparar.
         </p>
 
-        <h6 className="mb-3">Predicción de riesgo por modelo</h6>
-        <div className="table-responsive mb-4">
-          <table className="table table-bordered">
-            <thead className="table-light">
-              <tr>
-                <th>Modelo</th>
-                <th>Predicción</th>
-                <th>Probabilidad</th>
-              </tr>
-            </thead>
-            <tbody>
-              {modelos.map((m) => (
-                <tr key={m.key}>
-                  <td><strong>{MODELO_LABELS[m.key]}</strong></td>
-                  <td>
-                    <span className={m.data?.prediccion === 1 ? 'text-danger' : 'text-success'}>
-                      {m.data?.prediccion === 1 ? 'Riesgo' : 'Sin riesgo'}
-                    </span>
-                  </td>
-                  <td>{(m.data ? m.data.probabilidad * 100 : 0).toFixed(1)}%</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        {visibleCharts[CHART_KEYS.gauges] && (
+        {hayCaso && (
           <>
-            <h6 className="mb-3">Probabilidad de riesgo en esta evaluación (gauges)</h6>
+            <h6 className="mb-3">Probabilidad estimada por cada modelo con tus datos</h6>
+            <div className={`table-responsive ${validacion.reglaClase ? 'mb-2' : 'mb-4'}`}>
+              <table className="table table-bordered mb-0">
+                <thead className="table-light">
+                  <tr>
+                    <th>Modelo</th>
+                    <th>Grupo en que ubica los datos</th>
+                    <th>Probabilidad estimada de enfermedad cardíaca</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {resultados.map((m) => (
+                    <tr key={m.modelo}>
+                      <td><strong>{m.nombre}</strong></td>
+                      <td>{m.prediccion === 1 ? 'Con enfermedad cardíaca' : 'Sin enfermedad cardíaca'}</td>
+                      <td>{porcentajeProbabilidad(m.probabilidad)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {validacion.reglaClase && (
+              <p className="small text-muted mb-4">Cómo se asigna el grupo: {validacion.reglaClase}</p>
+            )}
+            {/* Los mismos avisos que en el resultado: esta página y su PDF también muestran probabilidades del caso. */}
+            <AvisoResultado />
+            <div className="mb-4">
+              <QueHacerAhora />
+            </div>
+          </>
+        )}
+
+        {hayCaso && mostrar('gauges') && (
+          <>
+            <h6 className="mb-3">Probabilidad estimada con tus datos (medidores)</h6>
             <div className="d-flex flex-wrap justify-content-center gap-4 mb-4">
-              {modelos.map((m) => {
-                const pct = m.data ? Math.round(m.data.probabilidad * 100) : 0;
-                const c = COLORS[m.key as keyof typeof COLORS];
+              {resultados.map((m) => {
+                const pct = aPorcentaje(m.probabilidad);
+                const c = COLORS[m.modelo];
                 return (
-                  <div key={m.key} className="text-center">
+                  <div key={m.modelo} className="text-center" data-pdf-bloque>
                     <div className="position-relative d-inline-block" style={{ width: 130, height: 130 }}>
                       <Doughnut
                         data={{
-                          labels: ['Riesgo', 'Sin riesgo'],
+                          labels: ['Probabilidad estimada', 'Resto'],
                           datasets: [{
-                            data: [pct, 100 - pct],
+                            data: [pct, Number((100 - pct).toFixed(1))],
                             backgroundColor: [c.main, 'rgba(0,0,0,0.06)'],
                             borderWidth: 0,
                             hoverOffset: 6,
@@ -216,13 +265,27 @@ export function AnalisisComparativo({ comparativo }: Readonly<Props>) {
                           responsive: true,
                           maintainAspectRatio: true,
                           cutout: '72%',
-                          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (ctx) => `${ctx.raw}%` } } },
-                          animation: { animateRotate: true, duration: 800 },
+                          plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                              callbacks: {
+                                label: (ctx) =>
+                                  porcentajeProbabilidad(ctx.dataIndex === 0 ? m.probabilidad : 1 - m.probabilidad),
+                              },
+                            },
+                          },
+                          animation: animar ? { animateRotate: true, duration: 800 } : false,
                         }}
                       />
-                      <div className="position-absolute top-50 start-50 translate-middle fw-bold" style={{ fontSize: '1.25rem', color: c.border }}>{pct}%</div>
+                      {/* Centrado con flex y sin transform: html2canvas dibuja mal translate() y la cifra salía corrida en el PDF. */}
+                      <div
+                        className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center fw-bold"
+                        style={{ fontSize: '1.1rem', color: COLOR_TEXTO, whiteSpace: 'nowrap', pointerEvents: 'none' }}
+                      >
+                        {porcentajeProbabilidad(m.probabilidad)}
+                      </div>
                     </div>
-                    <div className="mt-2 small fw-semibold">{MODELO_LABELS[m.key]}</div>
+                    <div className="mt-2 small fw-semibold">{m.nombre}</div>
                   </div>
                 );
               })}
@@ -230,66 +293,184 @@ export function AnalisisComparativo({ comparativo }: Readonly<Props>) {
           </>
         )}
 
-        {visibleCharts[CHART_KEYS.barras] && (
+        {hayCaso && mostrar('barras') && (
           <>
-            <h6 className="mb-3">Probabilidad de riesgo (barras horizontales)</h6>
+            <h6 className="mb-3">Probabilidad estimada con tus datos (barras)</h6>
             <div className="chart-container mb-4" style={{ height: 200 }}>
               <Bar
-                data={chartProbData}
+                data={{
+                  labels: resultados.map((m) => m.nombre),
+                  datasets: [
+                    {
+                      label: 'Probabilidad estimada (%)',
+                      data: resultados.map((m) => aPorcentaje(m.probabilidad)),
+                      backgroundColor: resultados.map((m) => COLORS[m.modelo].main),
+                      borderWidth: 0,
+                      borderRadius: 4,
+                      borderSkipped: false,
+                    },
+                  ],
+                }}
                 options={{
                   indexAxis: 'y',
                   responsive: true,
                   maintainAspectRatio: false,
-                  plugins: { legend: { display: false }, tooltip: { callbacks: { label: (ctx) => `Probabilidad: ${ctx.raw}%` } } },
+                  plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                      callbacks: {
+                        label: (ctx) => `Probabilidad: ${porcentajeProbabilidad(resultados[ctx.dataIndex].probabilidad)}`,
+                      },
+                    },
+                  },
                   scales: { x: { beginAtZero: true, max: 100 } },
-                  animation: { duration: 800 },
+                  animation: animar ? { duration: 800 } : false,
                 }}
               />
             </div>
           </>
         )}
 
-        {visibleCharts[CHART_KEYS.radar] && (
+        <h6 className="mb-2">Cómo se comportó cada modelo en la validación</h6>
+        {modelosConMetricas.length === 0 ? (
+          <div className="alert alert-secondary small">No hay métricas de validación disponibles.</div>
+        ) : (
+          <>
+            <div className="alert alert-light border small mb-3">
+              {validacion.metodo && (
+                <p className="mb-2"><strong>Cómo se validó:</strong> {validacion.metodo}</p>
+              )}
+              <p className="mb-0">
+                <strong>Cada valor:</strong> media ± desviación estándar; debajo, el mínimo y el máximo.
+                {validacion.resumen ? ` Se calculan así: ${validacion.resumen}` : ''}
+              </p>
+            </div>
+            {/*
+              Tabla desde 992 px (y en el PDF, que se copia con una ventana de 1280 px); por debajo, una tarjeta por
+              modelo. Entre 768 y 991 px la tabla de 7 columnas medía más que su caja y la columna AUC salía cortada.
+            */}
+            <div className="table-responsive mb-3 d-none d-lg-block">
+              <table className="table table-bordered align-middle">
+                <thead className="table-light">
+                  <tr>
+                    <th>Modelo</th>
+                    {metricasTabla.map((m) => <th key={m.id}>{m.nombre}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {modelosConMetricas.map((id) => (
+                    <tr key={id}>
+                      <td><strong>{nombres[id]}</strong></td>
+                      {metricasTabla.map((m) => {
+                        const e = metricas.modelos[id]?.[m.id];
+                        return <td key={m.id}>{e ? <ValorMetrica id={m.id} e={e} /> : '—'}</td>;
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="d-lg-none mb-3">
+              {modelosConMetricas.map((id) => (
+                <div className="border rounded bg-white mb-2" key={id} data-pdf-bloque>
+                  <div className="px-3 py-2 border-bottom bg-light fw-semibold">{nombres[id]}</div>
+                  <dl className="mb-0 small">
+                    {metricasTabla.map((m, i) => {
+                      const e = metricas.modelos[id]?.[m.id];
+                      return (
+                        <div
+                          className={`d-flex justify-content-between align-items-start gap-3 px-3 py-2 ${i > 0 ? 'border-top' : ''}`}
+                          key={m.id}
+                        >
+                          <dt className="fw-semibold">{m.nombre}</dt>
+                          <dd className="mb-0 text-end">{e ? <ValorMetrica id={m.id} e={e} /> : '—'}</dd>
+                        </div>
+                      );
+                    })}
+                  </dl>
+                </div>
+              ))}
+            </div>
+            <dl className="row small mb-4">
+              {metricasTabla.map((m) => (
+                <div className="col-md-6 mb-1" key={m.id}>
+                  <dt className="d-inline">{m.nombre}: </dt>
+                  <dd className="d-inline">{m.explicacion}</dd>
+                </div>
+              ))}
+            </dl>
+          </>
+        )}
+
+        {mostrar('radar') && (
           <>
             <h6 className="mb-3">Perfil de rendimiento (gráfico radar)</h6>
-            <p className="text-muted small mb-2">Cada polígono representa un modelo. Cuanto más grande y equilibrado, mejor el rendimiento.</p>
+            <p className="text-muted small mb-2">
+              Cada línea es un modelo; la de {nombres.svm ?? 'SVM'} va discontinua. Cada eje es la media de una métrica
+              en la validación.
+            </p>
             <div className="chart-container mb-4" style={{ height: 320 }}>
               <Radar
-                data={radarData}
+                data={{
+                  labels: metricasGrafico.map((m) => m.nombre),
+                  datasets: modelosConMetricas.map((id) => ({
+                    label: nombres[id],
+                    data: datosMetrica(id),
+                    fill: false,
+                    backgroundColor: 'transparent',
+                    borderColor: COLORS[id].border,
+                    borderDash: TRAZO_RADAR[id].dash,
+                    order: TRAZO_RADAR[id].order,
+                    borderWidth: 2,
+                    pointStyle: PUNTO[id],
+                    pointRadius: 4,
+                    pointHoverRadius: 6,
+                    pointBackgroundColor: COLORS[id].border,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: COLORS[id].border,
+                  })),
+                }}
                 options={{
                   responsive: true,
                   maintainAspectRatio: false,
-                  plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw}%` } } },
+                  plugins: {
+                    // «order» cambia también el orden de la leyenda: se vuelve al de la tabla (Random Forest primero).
+                    legend: {
+                      position: 'top',
+                      labels: { usePointStyle: true, sort: (a, b) => (a.datasetIndex ?? 0) - (b.datasetIndex ?? 0) },
+                    },
+                    tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw} %` } },
+                  },
                   scales: { r: { beginAtZero: true, max: 100, ticks: { stepSize: 20 } } },
-                  animation: { duration: 1000 },
+                  animation: animar ? { duration: 1000 } : false,
                 }}
               />
             </div>
           </>
         )}
 
-        {visibleCharts[CHART_KEYS.barrasAgrupadas] && (
+        {mostrar('barrasAgrupadas') && (
           <>
-            <h6 className="mb-3">Comparativa de métricas (barras agrupadas)</h6>
+            <h6 className="mb-3">Comparación de métricas (barras agrupadas)</h6>
             <div className="chart-container mb-3" style={{ height: 280 }}>
               <Bar
                 data={{
-                  labels: ['Exactitud', 'Precisión', 'Sensibilidad', 'F1-Score'],
-                  datasets: modelosConMetricas.map((m) => ({
-                    label: MODELO_LABELS[m.key],
-                    data: [metricas[m.key].accuracy, metricas[m.key].precision, metricas[m.key].recall, metricas[m.key].f1],
-                    backgroundColor: COLORS[m.key as keyof typeof COLORS].main,
-                    borderColor: COLORS[m.key as keyof typeof COLORS].border,
-                    borderWidth: 1,
+                  labels: metricasGrafico.map((m) => m.nombre),
+                  datasets: modelosConMetricas.map((id) => ({
+                    label: nombres[id],
+                    data: datosMetrica(id),
+                    backgroundColor: COLORS[id].main,
+                    borderWidth: 0,
                     borderRadius: 4,
                   })),
                 }}
                 options={{
                   responsive: true,
                   maintainAspectRatio: false,
-                  plugins: { legend: { position: 'top' } },
+                  plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw} %` } } },
                   scales: { y: { beginAtZero: true, max: 100 } },
-                  animation: { duration: 600 },
+                  animation: animar ? { duration: 600 } : false,
                 }}
               />
             </div>
@@ -297,9 +478,35 @@ export function AnalisisComparativo({ comparativo }: Readonly<Props>) {
         )}
 
         <div className="alert alert-info small mb-0">
-          <i className="bi bi-info-circle me-2"></i>
-          <strong>Random Forest</strong> es el modelo principal por su mayor exactitud y equilibrio.
-          El análisis comparativo permite validar consistencia entre modelos y explorar mejoras futuras.
+          <p className="mb-2">
+            <i className="bi bi-info-circle me-2" aria-hidden="true"></i>
+            {textoExactitud(metricas)} Estas cifras describen cómo se comportaron los modelos con los pacientes del
+            conjunto de datos, no la precisión de un resultado individual.
+          </p>
+          <p className="mb-2">
+            Datos: {n !== null ? `${n} pacientes` : 'pacientes'}
+            {nConEnfermedad !== null && nSinEnfermedad !== null
+              ? ` (${nConEnfermedad} con enfermedad cardíaca y ${nSinEnfermedad} sin ella)`
+              : ''}{' '}
+            del conjunto {fuente.nombre}, licencia {fuente.licencia}.
+            {filasEnArchivo !== null && filasDescartadas !== null && filasDescartadas > 0
+              ? ` El archivo tiene ${filasEnArchivo} filas; se descartaron ${filasDescartadas} con datos faltantes.`
+              : ''}
+          </p>
+          {/* La cita va como texto, no solo como enlace, para que se lea completa en el PDF impreso. */}
+          <p className="mb-0">
+            <strong>Cita del conjunto de datos:</strong> {fuente.cita}
+            {fuente.cita.includes(fuente.doi) ? '' : ` DOI: ${fuente.doi}.`}{' '}
+            <a
+              href={fuente.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="alert-link"
+              data-html2canvas-ignore
+            >
+              Ver en UCI
+            </a>
+          </p>
         </div>
       </div>
     </div>

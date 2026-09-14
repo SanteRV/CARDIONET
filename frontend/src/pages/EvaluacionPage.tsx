@@ -1,141 +1,57 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import type { EvaluacionInput, EvaluacionResultado } from '../api/evaluacion';
-import * as evaluacionApi from '../api/evaluacion';
-import * as medicosApi from '../api/medicos';
+import type { DatosClinicos } from '../api/evaluacion';
+import { evaluarCaso } from '../api/calculo';
 import { FormularioEvaluacion } from '../components/evaluacion/FormularioEvaluacion';
-import { ModalRegistroOpcional } from '../components/evaluacion/ModalRegistroOpcional';
 import { ResultadoEvaluacion } from '../components/evaluacion/ResultadoEvaluacion';
-import { ListaMedicos } from '../components/medicos/ListaMedicos';
-import { MapaCardiologos } from '../components/medicos/MapaCardiologos';
-import { LoadingOverlay } from '../components/ui/LoadingOverlay';
-import { ErrorBoundary } from '../components/ui/ErrorBoundary';
-import { useAuth } from '../context/AuthContext';
+import { useEvaluacionActual } from '../context/EvaluacionActual';
 import { useNotification } from '../hooks/useNotification';
 
-type View = 'form' | 'resultado' | 'medicos';
+type View = 'form' | 'resultado';
 
 export function EvaluacionPage() {
-  const [view, setView] = useState<View>('form');
-  const [resultado, setResultado] = useState<EvaluacionResultado | null>(null);
-  const [medicosRecomendados, setMedicosRecomendados] = useState<{ medicos: Awaited<ReturnType<typeof medicosApi.getRecomendados>>['data']['medicos']; perfilDetectado: string } | null>(null);
-  const [medicoSeleccionadoId, setMedicoSeleccionadoId] = useState<number | undefined>();
-  const [loading, setLoading] = useState(false);
-  const [showModalRegistro, setShowModalRegistro] = useState(false);
-  const [datosEvaluacion, setDatosEvaluacion] = useState<EvaluacionInput | null>(null);
-  const { user } = useAuth();
-  const { notify } = useNotification();
   const navigate = useNavigate();
+  const { notify } = useNotification();
+  // La evaluación en curso está solo en memoria (context/EvaluacionActual.tsx), no en el historial.
+  // Si se vuelve desde la comparación, se muestra otra vez el resultado.
+  const { evaluacion, setEvaluacion } = useEvaluacionActual();
+  const [view, setView] = useState<View>(evaluacion ? 'resultado' : 'form');
 
-  const handleSubmit = async (data: EvaluacionInput) => {
-    setLoading(true);
+  const irArriba = () => window.scrollTo({ top: 0 });
+
+  const handleSubmit = (datos: DatosClinicos) => {
     try {
-      const { ok, data: res } = await evaluacionApi.evaluar(data);
-      if (ok && res && !('error' in res)) {
-        setResultado(res);
-        setDatosEvaluacion(data);
-        setView('resultado');
-        if (!user) setShowModalRegistro(true);
-      } else {
-        notify((res as { error?: string }).error || 'No se pudo realizar la evaluación', 'error');
-      }
+      setEvaluacion(evaluarCaso(datos));
+      setView('resultado');
+      irArriba();
     } catch (err) {
-      notify('Error de conexión con el servidor: ' + (err as Error).message, 'error');
-    } finally {
-      setLoading(false);
+      notify('No se pudo calcular la estimación: ' + (err as Error).message, 'error');
     }
   };
 
-  const handleVerMedicos = async () => {
-    if (!resultado) return;
-    setLoading(true);
-    try {
-      const { ok, data } = await medicosApi.getRecomendados(resultado.perfil_riesgo);
-      if (ok && data.medicos) {
-        setMedicosRecomendados({ medicos: data.medicos, perfilDetectado: data.perfil_detectado });
-        setView('medicos');
-      } else {
-        notify((data as { error?: string }).error || 'No se pudieron obtener los médicos', 'error');
-      }
-    } catch (err) {
-      notify('Error de conexión: ' + (err as Error).message, 'error');
-    } finally {
-      setLoading(false);
-    }
+  const handleModificar = () => {
+    setView('form');
+    irArriba();
   };
 
   const handleNuevaEvaluacion = () => {
-    setResultado(null);
-    setMedicosRecomendados(null);
-    setMedicoSeleccionadoId(undefined);
-    setDatosEvaluacion(null);
-    setShowModalRegistro(false);
+    setEvaluacion(null);
     setView('form');
-  };
-
-  const handleRegistrarse = () => {
-    setShowModalRegistro(false);
-    navigate('/registro', { state: { datosPaciente: datosEvaluacion } });
-  };
-
-  const handleDemo = () => {
-    notify('Datos de demo cargados. Pulse "Evaluar Riesgo" para ver el resultado.', 'info');
-  };
-
-  const handleVolverResultado = () => {
-    setView(resultado ? 'resultado' : 'form');
+    irArriba();
   };
 
   return (
     <div className="container my-5">
-      {loading && <LoadingOverlay />}
-
-      {view === 'form' && (
-        <FormularioEvaluacion onSubmit={handleSubmit} onDemo={handleDemo} />
-      )}
-
-      {view === 'resultado' && resultado && (
+      {view === 'resultado' && evaluacion ? (
         <ResultadoEvaluacion
-          resultado={resultado}
-          onVerMedicos={handleVerMedicos}
+          evaluacion={evaluacion}
+          onComparar={() => navigate('/evaluacion/comparativo')}
+          onModificar={handleModificar}
           onNuevaEvaluacion={handleNuevaEvaluacion}
         />
+      ) : (
+        <FormularioEvaluacion valoresIniciales={evaluacion?.datos} onSubmit={handleSubmit} />
       )}
-
-      {view === 'medicos' && medicosRecomendados && (
-        <div className="container-fluid px-0" style={{ minHeight: 'calc(100vh - 200px)' }}>
-          <div className="row g-3">
-            <div className="col-12 col-lg-5">
-              <div className="overflow-auto pe-2" style={{ maxHeight: 'calc(100vh - 220px)' }}>
-                <ListaMedicos
-                  perfilDetectado={medicosRecomendados.perfilDetectado}
-                  medicosRecomendados={medicosRecomendados.medicos}
-                  medicoSeleccionadoId={medicoSeleccionadoId}
-                  onCardClick={(m) => setMedicoSeleccionadoId(m.id)}
-                  onVerTodos={resultado ? handleVolverResultado : () => navigate('/evaluacion')}
-                />
-              </div>
-            </div>
-            <div className="col-12 col-lg-7 d-flex flex-column" style={{ minHeight: 'calc(100vh - 220px)' }}>
-              <div className="mapa-wrapper rounded shadow bg-light flex-grow-1" style={{ minHeight: '450px' }}>
-                <ErrorBoundary fallback={<div className="p-4 text-center text-muted">Mapa no disponible</div>}>
-                  <MapaCardiologos
-                    medicos={medicosRecomendados.medicos}
-                    medicoSeleccionadoId={medicoSeleccionadoId}
-                    onMedicoSeleccionado={(m) => setMedicoSeleccionadoId(m.id)}
-                  />
-                </ErrorBoundary>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <ModalRegistroOpcional
-        show={showModalRegistro && !!resultado}
-        onClose={() => setShowModalRegistro(false)}
-        onRegistrarse={handleRegistrarse}
-      />
     </div>
   );
 }

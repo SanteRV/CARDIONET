@@ -1,38 +1,24 @@
-import { useAuth } from '../../hooks/useAuth';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+const claseBoton = ({ isActive }: { isActive: boolean }) =>
+  `btn btn-sm ${isActive ? 'btn-light' : 'btn-outline-light'}`;
 
 export function Navbar() {
-  const { user, logout } = useAuth();
-
   return (
     <nav className="navbar navbar-dark bg-primary navbar-expand">
-      <div className="container">
+      <div className="container flex-wrap gap-2">
         <Link to="/" className="navbar-brand mb-0 h1">
           <i className="bi bi-heart-pulse-fill me-2"></i>
           CARDIONET
         </Link>
-        <span className="text-white d-none d-md-inline">Sistema de Predicción de Cardiopatías</span>
+        <span className="text-white d-none d-lg-inline">Estimación educativa del riesgo de enfermedad cardíaca</span>
         <div className="ms-auto d-flex align-items-center gap-2">
-          {user ? (
-            <>
-              <span className="text-white me-2">
-                {user.email}
-                {user.rol === 'medico' ? ' (Médico)' : ''}
-              </span>
-              <button className="btn btn-outline-light btn-sm" onClick={logout}>
-                Cerrar sesión
-              </button>
-            </>
-          ) : (
-            <>
-              <Link to="/login" className="btn btn-outline-light btn-sm">
-                Iniciar sesión
-              </Link>
-              <Link to="/registro" className="btn btn-light btn-sm">
-                Registrarse
-              </Link>
-            </>
-          )}
+          <NavLink to="/evaluacion" end className={claseBoton}>
+            Evaluación
+          </NavLink>
+          <NavLink to="/evaluacion/comparativo" className={claseBoton}>
+            Comparar modelos
+          </NavLink>
         </div>
       </div>
     </nav>

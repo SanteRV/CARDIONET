@@ -4,15 +4,20 @@ type ToastType = 'error' | 'warning' | 'info';
 
 let toastContainer: HTMLDivElement | null = null;
 
+// La posición del contenedor está en index.css (#notificationContainer): arriba a la derecha
+// en pantallas anchas y abajo, a todo el ancho, en pantallas estrechas.
 function ensureContainer() {
   if (!toastContainer) {
     toastContainer = document.createElement('div');
     toastContainer.id = 'notificationContainer';
-    toastContainer.className = 'position-fixed top-0 end-0 p-3';
-    toastContainer.style.zIndex = '9999';
     document.body.appendChild(toastContainer);
   }
   return toastContainer;
+}
+
+/** Cierra los mensajes abiertos, para que uno viejo no quede encima de lo que viene después. */
+function cerrarNotificaciones() {
+  toastContainer?.replaceChildren();
 }
 
 function escapeHtml(text: string): string {
@@ -39,5 +44,5 @@ export function useNotification() {
     setTimeout(close, 5000);
   }, []);
 
-  return { notify };
+  return { notify, cerrarNotificaciones };
 }

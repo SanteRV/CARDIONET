@@ -1,0 +1,767 @@
+{
+  "fuente": {
+    "nombre": "Heart Disease (UCI Machine Learning Repository), subconjunto Cleveland",
+    "archivo": "processed.cleveland.data",
+    "url": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+    "licencia": "CC BY 4.0",
+    "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+    "doi": "10.24432/C52P4X",
+    "autores": [
+      "Andras Janosi",
+      "William Steinbrunn",
+      "Matthias Pfisterer",
+      "Robert Detrano"
+    ],
+    "cita": "Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.",
+    "cita_verificada_en": "https://archive.ics.uci.edu/dataset/45/heart+disease (formato APA de la página)"
+  },
+  "datos": {
+    "filas_en_archivo": 303,
+    "filas_en_archivo_por_clase": {
+      "0": 164,
+      "1": 139
+    },
+    "filas_descartadas": 6,
+    "detalle_descartadas": [
+      {
+        "linea_archivo": 88,
+        "variables_faltantes": [
+          "thal"
+        ],
+        "num": 0
+      },
+      {
+        "linea_archivo": 167,
+        "variables_faltantes": [
+          "ca"
+        ],
+        "num": 0
+      },
+      {
+        "linea_archivo": 193,
+        "variables_faltantes": [
+          "ca"
+        ],
+        "num": 1
+      },
+      {
+        "linea_archivo": 267,
+        "variables_faltantes": [
+          "thal"
+        ],
+        "num": 2
+      },
+      {
+        "linea_archivo": 288,
+        "variables_faltantes": [
+          "ca"
+        ],
+        "num": 0
+      },
+      {
+        "linea_archivo": 303,
+        "variables_faltantes": [
+          "ca"
+        ],
+        "num": 0
+      }
+    ],
+    "n_total": 297,
+    "n_por_clase": {
+      "0": 160,
+      "1": 137
+    },
+    "objetivo": "Clase 1 = con enfermedad (num > 0); clase 0 = sin enfermedad (num = 0). El riesgo que muestra la app es la probabilidad de la clase 1."
+  },
+  "variables": [
+    {
+      "codigo": "age",
+      "etiqueta": "Edad",
+      "etiqueta_corta": "Edad",
+      "tipo": "numérica",
+      "unidad": "años",
+      "min": 29,
+      "max": 77,
+      "decimales": 0
+    },
+    {
+      "codigo": "sex",
+      "etiqueta": "Sexo",
+      "etiqueta_corta": "Sexo",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 0,
+          "etiqueta": "Mujer"
+        },
+        {
+          "valor": 1,
+          "etiqueta": "Hombre"
+        }
+      ]
+    },
+    {
+      "codigo": "cp",
+      "etiqueta": "Tipo de dolor torácico",
+      "etiqueta_corta": "Dolor torácico",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 1,
+          "etiqueta": "Angina típica"
+        },
+        {
+          "valor": 2,
+          "etiqueta": "Angina atípica"
+        },
+        {
+          "valor": 3,
+          "etiqueta": "Dolor no anginoso"
+        },
+        {
+          "valor": 4,
+          "etiqueta": "Asintomático"
+        }
+      ]
+    },
+    {
+      "codigo": "trestbps",
+      "etiqueta": "Presión arterial en reposo",
+      "etiqueta_corta": "Presión arterial",
+      "tipo": "numérica",
+      "unidad": "mm Hg",
+      "min": 94,
+      "max": 200,
+      "decimales": 0
+    },
+    {
+      "codigo": "chol",
+      "etiqueta": "Colesterol sérico",
+      "etiqueta_corta": "Colesterol",
+      "tipo": "numérica",
+      "unidad": "mg/dl",
+      "min": 126,
+      "max": 564,
+      "decimales": 0
+    },
+    {
+      "codigo": "fbs",
+      "etiqueta": "Glucosa en ayunas mayor de 120 mg/dl",
+      "etiqueta_corta": "Glucosa en ayunas",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 0,
+          "etiqueta": "No"
+        },
+        {
+          "valor": 1,
+          "etiqueta": "Sí"
+        }
+      ]
+    },
+    {
+      "codigo": "restecg",
+      "etiqueta": "Electrocardiograma en reposo",
+      "etiqueta_corta": "ECG en reposo",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 0,
+          "etiqueta": "Normal"
+        },
+        {
+          "valor": 1,
+          "etiqueta": "Anomalía de la onda ST-T"
+        },
+        {
+          "valor": 2,
+          "etiqueta": "Hipertrofia ventricular izquierda probable o definida"
+        }
+      ]
+    },
+    {
+      "codigo": "thalach",
+      "etiqueta": "Frecuencia cardíaca máxima alcanzada",
+      "etiqueta_corta": "Frecuencia cardíaca máxima",
+      "tipo": "numérica",
+      "min": 71,
+      "max": 202,
+      "decimales": 0
+    },
+    {
+      "codigo": "exang",
+      "etiqueta": "Angina inducida por ejercicio",
+      "etiqueta_corta": "Angina por ejercicio",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 0,
+          "etiqueta": "No"
+        },
+        {
+          "valor": 1,
+          "etiqueta": "Sí"
+        }
+      ]
+    },
+    {
+      "codigo": "oldpeak",
+      "etiqueta": "Depresión del ST inducida por ejercicio respecto al reposo",
+      "etiqueta_corta": "Depresión del ST",
+      "tipo": "numérica",
+      "min": 0,
+      "max": 6.2,
+      "decimales": 1
+    },
+    {
+      "codigo": "slope",
+      "etiqueta": "Pendiente del ST en el pico del ejercicio",
+      "etiqueta_corta": "Pendiente del ST",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 1,
+          "etiqueta": "Ascendente"
+        },
+        {
+          "valor": 2,
+          "etiqueta": "Plana"
+        },
+        {
+          "valor": 3,
+          "etiqueta": "Descendente"
+        }
+      ]
+    },
+    {
+      "codigo": "ca",
+      "etiqueta": "Número de vasos principales coloreados por fluoroscopia",
+      "etiqueta_corta": "Vasos coloreados",
+      "tipo": "numérica",
+      "min": 0,
+      "max": 3,
+      "decimales": 0
+    },
+    {
+      "codigo": "thal",
+      "etiqueta": "Thal",
+      "etiqueta_corta": "Thal",
+      "tipo": "categórica",
+      "valores": [
+        {
+          "valor": 3,
+          "etiqueta": "Normal"
+        },
+        {
+          "valor": 6,
+          "etiqueta": "Defecto fijo"
+        },
+        {
+          "valor": 7,
+          "etiqueta": "Defecto reversible"
+        }
+      ]
+    }
+  ],
+  "rangos": {
+    "age": {
+      "min": 29,
+      "max": 77
+    },
+    "trestbps": {
+      "min": 94,
+      "max": 200
+    },
+    "chol": {
+      "min": 126,
+      "max": 564
+    },
+    "thalach": {
+      "min": 71,
+      "max": 202
+    },
+    "oldpeak": {
+      "min": 0,
+      "max": 6.2
+    },
+    "ca": {
+      "min": 0,
+      "max": 3
+    }
+  },
+  "rangos_nota": "Mínimo y máximo de cada variable numérica en las 297 filas usadas para entrenar.",
+  "validacion": {
+    "metodo": "Validación cruzada anidada. Externa: 10 particiones estratificadas repetidas 10 veces (100 particiones de prueba). Interna: dentro de cada partición de entrenamiento se comparan las configuraciones de cada modelo con 5 particiones estratificadas y se elige la de mayor AUC ROC media; si empatan, la más simple. Esa configuración se entrena con toda la partición de entrenamiento y se mide en la de prueba. Las cifras miden el procedimiento completo, sin elegir la configuración mirando los datos de prueba.",
+    "externa": "RepeatedStratifiedKFold(n_splits=10, n_repeats=10, random_state=42)",
+    "interna": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42), criterio roc_auc",
+    "modelo_final": "La misma selección interna se aplica a las 297 filas y el modelo elegido se entrena con las 297 filas.",
+    "unidad": "Proporción entre 0 y 1, calculada en cada partición de prueba.",
+    "resumen": "media, desviación estándar muestral (n-1), mínimo y máximo sobre las 100 particiones.",
+    "definiciones": {
+      "exactitud": "(VP + VN) / total",
+      "sensibilidad": "VP / (VP + FN): proporción de pacientes con enfermedad marcados como clase 1",
+      "especificidad": "VN / (VN + FP): proporción de pacientes sin enfermedad marcados como clase 0",
+      "precision": "VP / (VP + FP)",
+      "f1": "2 · precisión · sensibilidad / (precisión + sensibilidad)",
+      "auc_roc": "Área bajo la curva ROC de la probabilidad de clase 1"
+    },
+    "etiqueta": "Los tres modelos ubican los datos en el grupo con enfermedad cardíaca si la probabilidad estimada es mayor que 50 %; si no, en el grupo sin enfermedad cardíaca."
+  },
+  "modelos": {
+    "rf": {
+      "nombre": "Random Forest",
+      "hiperparametros_fijos": {
+        "n_estimators": 150,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "criterion": "gini"
+      },
+      "configuraciones_comparadas": [
+        "max_depth=4",
+        "max_depth=6",
+        "max_depth=8"
+      ],
+      "por_que": "150 árboles con profundidad acotada para que el modelo exportado pese poco; min_samples_leaf=2 evita hojas de un solo paciente. La profundidad máxima (4, 6 u 8) se elige con validación cruzada interna.",
+      "veces_elegida_en_las_100_particiones": {
+        "max_depth=4": 59,
+        "max_depth=6": 29,
+        "max_depth=8": 12
+      },
+      "configuracion_final": "max_depth=6",
+      "auc_interno_con_las_297_filas": [
+        {
+          "configuracion": "max_depth=4",
+          "auc_media": 0.901182,
+          "auc_desviacion": 0.043829
+        },
+        {
+          "configuracion": "max_depth=6",
+          "auc_media": 0.901215,
+          "auc_desviacion": 0.04234
+        },
+        {
+          "configuracion": "max_depth=8",
+          "auc_media": 0.896619,
+          "auc_desviacion": 0.044193
+        }
+      ],
+      "modelo_final": {
+        "arboles": 150,
+        "nodos_totales": 8866,
+        "hojas_totales": 4508,
+        "profundidad_maxima": 6
+      },
+      "metricas": {
+        "exactitud": {
+          "media": 0.833471,
+          "desviacion": 0.068909,
+          "min": 0.666667,
+          "max": 1.0
+        },
+        "sensibilidad": {
+          "media": 0.772088,
+          "desviacion": 0.116172,
+          "min": 0.461538,
+          "max": 1.0
+        },
+        "especificidad": {
+          "media": 0.88625,
+          "desviacion": 0.088558,
+          "min": 0.5625,
+          "max": 1.0
+        },
+        "auc_roc": {
+          "media": 0.907105,
+          "desviacion": 0.057889,
+          "min": 0.665179,
+          "max": 1.0
+        },
+        "precision": {
+          "media": 0.861209,
+          "desviacion": 0.091422,
+          "min": 0.631579,
+          "max": 1.0
+        },
+        "f1": {
+          "media": 0.808172,
+          "desviacion": 0.083167,
+          "min": 0.583333,
+          "max": 1.0
+        }
+      },
+      "matriz_confusion_agregada": {
+        "verdaderos_negativos": 1418,
+        "falsos_positivos": 182,
+        "falsos_negativos": 313,
+        "verdaderos_positivos": 1057,
+        "total": 2970,
+        "nota": "Suma de las 100 particiones de prueba: cada paciente se cuenta 10 veces, una por repetición."
+      }
+    },
+    "dt": {
+      "nombre": "Árbol de decisión",
+      "hiperparametros_fijos": {
+        "min_samples_leaf": 5,
+        "criterion": "gini"
+      },
+      "configuraciones_comparadas": [
+        "max_depth=3",
+        "max_depth=4",
+        "max_depth=5"
+      ],
+      "por_que": "Profundidad máxima baja y al menos 5 pacientes por hoja para que el árbol se pueda leer. La profundidad (3, 4 o 5) se elige con validación cruzada interna.",
+      "veces_elegida_en_las_100_particiones": {
+        "max_depth=3": 53,
+        "max_depth=4": 28,
+        "max_depth=5": 19
+      },
+      "configuracion_final": "max_depth=4",
+      "auc_interno_con_las_297_filas": [
+        {
+          "configuracion": "max_depth=3",
+          "auc_media": 0.829605,
+          "auc_desviacion": 0.037161
+        },
+        {
+          "configuracion": "max_depth=4",
+          "auc_media": 0.840021,
+          "auc_desviacion": 0.053335
+        },
+        {
+          "configuracion": "max_depth=5",
+          "auc_media": 0.832833,
+          "auc_desviacion": 0.060824
+        }
+      ],
+      "modelo_final": {
+        "nodos": 29,
+        "hojas": 15,
+        "profundidad": 4
+      },
+      "metricas": {
+        "exactitud": {
+          "media": 0.785126,
+          "desviacion": 0.075324,
+          "min": 0.6,
+          "max": 0.966667
+        },
+        "sensibilidad": {
+          "media": 0.71533,
+          "desviacion": 0.122848,
+          "min": 0.428571,
+          "max": 1.0
+        },
+        "especificidad": {
+          "media": 0.845,
+          "desviacion": 0.101083,
+          "min": 0.5625,
+          "max": 1.0
+        },
+        "auc_roc": {
+          "media": 0.836758,
+          "desviacion": 0.078997,
+          "min": 0.584821,
+          "max": 0.997768
+        },
+        "precision": {
+          "media": 0.806815,
+          "desviacion": 0.102429,
+          "min": 0.5625,
+          "max": 1.0
+        },
+        "f1": {
+          "media": 0.751616,
+          "desviacion": 0.0917,
+          "min": 0.5,
+          "max": 0.965517
+        }
+      },
+      "matriz_confusion_agregada": {
+        "verdaderos_negativos": 1352,
+        "falsos_positivos": 248,
+        "falsos_negativos": 390,
+        "verdaderos_positivos": 980,
+        "total": 2970,
+        "nota": "Suma de las 100 particiones de prueba: cada paciente se cuenta 10 veces, una por repetición."
+      }
+    },
+    "svm": {
+      "nombre": "SVM (kernel RBF)",
+      "hiperparametros_fijos": {
+        "escalado": "StandardScaler",
+        "kernel": "rbf",
+        "gamma": "scale",
+        "probability": true
+      },
+      "configuraciones_comparadas": [
+        "C=0.1",
+        "C=1.0",
+        "C=10.0"
+      ],
+      "por_que": "Kernel RBF sobre variables estandarizadas, con gamma='scale'. C (0,1; 1 o 10) se elige con validación cruzada interna. probability=True calcula la probabilidad con el método de Platt de scikit-learn.",
+      "veces_elegida_en_las_100_particiones": {
+        "C=0.1": 69,
+        "C=1.0": 31,
+        "C=10.0": 0
+      },
+      "configuracion_final": "C=0.1",
+      "auc_interno_con_las_297_filas": [
+        {
+          "configuracion": "C=0.1",
+          "auc_media": 0.892576,
+          "auc_desviacion": 0.043711
+        },
+        {
+          "configuracion": "C=1.0",
+          "auc_media": 0.891865,
+          "auc_desviacion": 0.0432
+        },
+        {
+          "configuracion": "C=10.0",
+          "auc_media": 0.864765,
+          "auc_desviacion": 0.041951
+        }
+      ],
+      "modelo_final": {
+        "vectores_soporte": 235,
+        "vectores_soporte_por_clase": {
+          "0": 118,
+          "1": 117
+        },
+        "gamma_efectivo": 0.07692307692307693
+      },
+      "metricas": {
+        "exactitud": {
+          "media": 0.826379,
+          "desviacion": 0.069848,
+          "min": 0.633333,
+          "max": 0.966667
+        },
+        "sensibilidad": {
+          "media": 0.796538,
+          "desviacion": 0.114979,
+          "min": 0.428571,
+          "max": 1.0
+        },
+        "especificidad": {
+          "media": 0.851875,
+          "desviacion": 0.087786,
+          "min": 0.4375,
+          "max": 1.0
+        },
+        "auc_roc": {
+          "media": 0.897854,
+          "desviacion": 0.062775,
+          "min": 0.678571,
+          "max": 0.995536
+        },
+        "precision": {
+          "media": 0.827812,
+          "desviacion": 0.08664,
+          "min": 0.590909,
+          "max": 1.0
+        },
+        "f1": {
+          "media": 0.806768,
+          "desviacion": 0.081986,
+          "min": 0.521739,
+          "max": 0.965517
+        }
+      },
+      "matriz_confusion_agregada": {
+        "verdaderos_negativos": 1363,
+        "falsos_positivos": 237,
+        "falsos_negativos": 279,
+        "verdaderos_positivos": 1091,
+        "total": 2970,
+        "nota": "Suma de las 100 particiones de prueba: cada paciente se cuenta 10 veces, una por repetición."
+      }
+    }
+  },
+  "importancias": [
+    {
+      "codigo": "thal",
+      "etiqueta": "Thal",
+      "etiqueta_corta": "Thal",
+      "importancia": 0.162869
+    },
+    {
+      "codigo": "cp",
+      "etiqueta": "Tipo de dolor torácico",
+      "etiqueta_corta": "Dolor torácico",
+      "importancia": 0.139596
+    },
+    {
+      "codigo": "ca",
+      "etiqueta": "Número de vasos principales coloreados por fluoroscopia",
+      "etiqueta_corta": "Vasos coloreados",
+      "importancia": 0.123572
+    },
+    {
+      "codigo": "thalach",
+      "etiqueta": "Frecuencia cardíaca máxima alcanzada",
+      "etiqueta_corta": "Frecuencia cardíaca máxima",
+      "importancia": 0.113382
+    },
+    {
+      "codigo": "oldpeak",
+      "etiqueta": "Depresión del ST inducida por ejercicio respecto al reposo",
+      "etiqueta_corta": "Depresión del ST",
+      "importancia": 0.109536
+    },
+    {
+      "codigo": "age",
+      "etiqueta": "Edad",
+      "etiqueta_corta": "Edad",
+      "importancia": 0.07791
+    },
+    {
+      "codigo": "exang",
+      "etiqueta": "Angina inducida por ejercicio",
+      "etiqueta_corta": "Angina por ejercicio",
+      "importancia": 0.060551
+    },
+    {
+      "codigo": "trestbps",
+      "etiqueta": "Presión arterial en reposo",
+      "etiqueta_corta": "Presión arterial",
+      "importancia": 0.055935
+    },
+    {
+      "codigo": "chol",
+      "etiqueta": "Colesterol sérico",
+      "etiqueta_corta": "Colesterol",
+      "importancia": 0.054042
+    },
+    {
+      "codigo": "slope",
+      "etiqueta": "Pendiente del ST en el pico del ejercicio",
+      "etiqueta_corta": "Pendiente del ST",
+      "importancia": 0.045794
+    },
+    {
+      "codigo": "sex",
+      "etiqueta": "Sexo",
+      "etiqueta_corta": "Sexo",
+      "importancia": 0.031633
+    },
+    {
+      "codigo": "restecg",
+      "etiqueta": "Electrocardiograma en reposo",
+      "etiqueta_corta": "ECG en reposo",
+      "importancia": 0.019189
+    },
+    {
+      "codigo": "fbs",
+      "etiqueta": "Glucosa en ayunas mayor de 120 mg/dl",
+      "etiqueta_corta": "Glucosa en ayunas",
+      "importancia": 0.005991
+    }
+  ],
+  "importancias_nota": "Importancia por reducción de impureza (Gini) del Random Forest final; suman 1.",
+  "comprobacion_sentido": {
+    "rf": {
+      "modelo_final_sobre_las_297_filas": {
+        "con_enfermedad": 0.8051,
+        "sin_enfermedad": 0.1719
+      },
+      "fuera_de_muestra_validacion_cruzada": {
+        "con_enfermedad": 0.6891,
+        "sin_enfermedad": 0.268
+      }
+    },
+    "dt": {
+      "modelo_final_sobre_las_297_filas": {
+        "con_enfermedad": 0.8028,
+        "sin_enfermedad": 0.1688
+      },
+      "fuera_de_muestra_validacion_cruzada": {
+        "con_enfermedad": 0.7116,
+        "sin_enfermedad": 0.2399
+      }
+    },
+    "svm": {
+      "modelo_final_sobre_las_297_filas": {
+        "con_enfermedad": 0.767,
+        "sin_enfermedad": 0.2149
+      },
+      "fuera_de_muestra_validacion_cruzada": {
+        "con_enfermedad": 0.731,
+        "sin_enfermedad": 0.2427
+      }
+    }
+  },
+  "ejemplos": {
+    "criterio": "Con enfermedad: la fila con num > 0 cuya menor probabilidad entre los 3 modelos finales y los 3 promedios fuera de muestra es la más alta. Sin enfermedad: la fila con num = 0 cuya mayor probabilidad entre esos 6 valores es la más baja. indice_fila_original empieza en 0; linea_archivo empieza en 1.",
+    "con_enfermedad": {
+      "linea_archivo": 66,
+      "indice_fila_original": 65,
+      "valores": {
+        "age": 60,
+        "sex": 1,
+        "cp": 4,
+        "trestbps": 145,
+        "chol": 282,
+        "fbs": 0,
+        "restecg": 2,
+        "thalach": 142,
+        "exang": 1,
+        "oldpeak": 2.8,
+        "slope": 2,
+        "ca": 2,
+        "thal": 7
+      },
+      "num": 2,
+      "probabilidad_modelo_final": {
+        "rf": 0.9959,
+        "dt": 1.0,
+        "svm": 0.9922
+      },
+      "probabilidad_media_fuera_de_muestra": {
+        "rf": 0.9814,
+        "dt": 0.9825,
+        "svm": 0.9913
+      }
+    },
+    "sin_enfermedad": {
+      "linea_archivo": 256,
+      "indice_fila_original": 255,
+      "valores": {
+        "age": 42,
+        "sex": 0,
+        "cp": 3,
+        "trestbps": 120,
+        "chol": 209,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 173,
+        "exang": 0,
+        "oldpeak": 0,
+        "slope": 2,
+        "ca": 0,
+        "thal": 3
+      },
+      "num": 0,
+      "probabilidad_modelo_final": {
+        "rf": 0.0161,
+        "dt": 0.0341,
+        "svm": 0.0304
+      },
+      "probabilidad_media_fuera_de_muestra": {
+        "rf": 0.0392,
+        "dt": 0.0321,
+        "svm": 0.042
+      }
+    }
+  },
+  "entrenamiento": {
+    "fecha": "2026-09-13",
+    "scikit_learn": "1.6.1",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.13.5",
+    "random_state": 42,
+    "script": "ml/entrenar.py"
+  }
+}
